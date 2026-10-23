@@ -1,0 +1,106 @@
+{
+  "repository": "js91872/buddha",
+  "commit": "b3582982815dd14fefbbbe7e0b6e2114f2a11ef3",
+  "branch": "optimize/kindle-print-layout-2026-10-23",
+  "all_downloads_verified": true,
+  "files": [
+    {
+      "file": "The_Light_of_Buddha_Volume_1_Optimized_Complete.zip",
+      "bytes": 241913087,
+      "sha256": "88b522b59bfda77d164f22786dd9af86c704435da09bb2f5cfdebc7802c876f6",
+      "members": 393,
+      "crc_test": "pass",
+      "url": "https://media.githubusercontent.com/media/js91872/buddha/b3582982815dd14fefbbbe7e0b6e2114f2a11ef3/archives/The_Light_of_Buddha_Volume_1_Optimized_Complete.zip",
+      "zip_members": 393,
+      "zip_crc": "pass",
+      "http_status": "200",
+      "downloaded_bytes": 241913087,
+      "downloaded_sha256": "88b522b59bfda77d164f22786dd9af86c704435da09bb2f5cfdebc7802c876f6",
+      "remote_matches": true
+    },
+    {
+      "file": "The_Light_of_Buddha_Volume_1_Optimized_Kindle_Package.zip",
+      "bytes": 75616326,
+      "sha256": "c22861b3ea558d2576c11a496d361ea80b131c5ca4a5dc05d3885986148b365a",
+      "members": 21,
+      "crc_test": "pass",
+      "url": "https://media.githubusercontent.com/media/js91872/buddha/b3582982815dd14fefbbbe7e0b6e2114f2a11ef3/archives/The_Light_of_Buddha_Volume_1_Optimized_Kindle_Package.zip",
+      "zip_members": 21,
+      "zip_crc": "pass",
+      "http_status": "200",
+      "downloaded_bytes": 75616326,
+      "downloaded_sha256": "c22861b3ea558d2576c11a496d361ea80b131c5ca4a5dc05d3885986148b365a",
+      "remote_matches": true
+    },
+    {
+      "file": "the-light-of-buddha-volume-1.epub",
+      "bytes": 16413506,
+      "sha256": "ebc6a2ee38ab12caeeaa3c214593a2ae34ffd3fb2ec89635752a078006e8ecda",
+      "url": "https://raw.githubusercontent.com/js91872/buddha/b3582982815dd14fefbbbe7e0b6e2114f2a11ef3/light-of-buddha/release/the-light-of-buddha-volume-1.epub",
+      "http_status": "200",
+      "downloaded_bytes": 16413506,
+      "downloaded_sha256": "ebc6a2ee38ab12caeeaa3c214593a2ae34ffd3fb2ec89635752a078006e8ecda",
+      "remote_matches": true
+    },
+    {
+      "file": "the-light-of-buddha-volume-1-print.pdf",
+      "bytes": 35978999,
+      "sha256": "3a04a044d21a77807bf4db22bcdc1c324d8dc3d532c260fc81b394287a223a6f",
+      "url": "https://raw.githubusercontent.com/js91872/buddha/b3582982815dd14fefbbbe7e0b6e2114f2a11ef3/light-of-buddha/release/the-light-of-buddha-volume-1-print.pdf",
+      "http_status": "200",
+      "downloaded_bytes": 35978999,
+      "downloaded_sha256": "3a04a044d21a77807bf4db22bcdc1c324d8dc3d532c260fc81b394287a223a6f",
+      "remote_matches": true
+    },
+    {
+      "file": "the-light-of-buddha-volume-1.docx",
+      "bytes": 28631927,
+      "sha256": "61ce0003c4712f47ad9abd5b184f359c29a9007e2f09e04bc6e37a3354267333",
+      "url": "https://raw.githubusercontent.com/js91872/buddha/b3582982815dd14fefbbbe7e0b6e2114f2a11ef3/light-of-buddha/release/the-light-of-buddha-volume-1.docx",
+      "http_status": "200",
+      "downloaded_bytes": 28631927,
+      "downloaded_sha256": "61ce0003c4712f47ad9abd5b184f359c29a9007e2f09e04bc6e37a3354267333",
+      "remote_matches": true
+    },
+    {
+      "file": "kindle-cover.jpg",
+      "bytes": 1366890,
+      "sha256": "4f819b010f47cdb73bc244a30f6c8ede15fe0b53d8ce88ca89ff4cdc89cce052",
+      "url": "https://raw.githubusercontent.com/js91872/buddha/b3582982815dd14fefbbbe7e0b6e2114f2a11ef3/light-of-buddha/release/kindle-cover.jpg",
+      "http_status": "200",
+      "downloaded_bytes": 1366890,
+      "downloaded_sha256": "4f819b010f47cdb73bc244a30f6c8ede15fe0b53d8ce88ca89ff4cdc89cce052",
+      "remote_matches": true
+    },
+    {
+      "file": "metadata.md",
+      "bytes": 8981,
+      "sha256": "376afb805d9ed74ae7e9e770db22671383fcab716e99dba7ceca82fc6e6e7e25",
+      "url": "https://raw.githubusercontent.com/js91872/buddha/b3582982815dd14fefbbbe7e0b6e2114f2a11ef3/light-of-buddha/release/metadata.md",
+      "http_status": "200",
+      "downloaded_bytes": 8981,
+      "downloaded_sha256": "376afb805d9ed74ae7e9e770db22671383fcab716e99dba7ceca82fc6e6e7e25",
+      "remote_matches": true
+    },
+    {
+      "file": "release-report.md",
+      "bytes": 6798,
+      "sha256": "a2ceca80bfd9b79d21f82d7fe7e79b277074b91d907b215bd07dc193952294b9",
+      "url": "https://raw.githubusercontent.com/js91872/buddha/b3582982815dd14fefbbbe7e0b6e2114f2a11ef3/light-of-buddha/release/release-report.md",
+      "http_status": "200",
+      "downloaded_bytes": 6798,
+      "downloaded_sha256": "a2ceca80bfd9b79d21f82d7fe7e79b277074b91d907b215bd07dc193952294b9",
+      "remote_matches": true
+    },
+    {
+      "file": "OPTIMIZATION_REPORT.md",
+      "bytes": 4483,
+      "sha256": "e051a485511200d570502f9bec2d580152b6c825a5978c940d9918eda47cd8c8",
+      "url": "https://raw.githubusercontent.com/js91872/buddha/b3582982815dd14fefbbbe7e0b6e2114f2a11ef3/light-of-buddha/OPTIMIZATION_REPORT.md",
+      "http_status": "200",
+      "downloaded_bytes": 4483,
+      "downloaded_sha256": "e051a485511200d570502f9bec2d580152b6c825a5978c940d9918eda47cd8c8",
+      "remote_matches": true
+    }
+  ]
+}
