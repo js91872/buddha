@@ -64,7 +64,7 @@ with ZipFile(R/'release/the-light-of-buddha-volume-1.epub') as z:
  checks['cover_accessibility']={'role':svg.get('role'),'labelledby':svg.get('aria-labelledby'),'title':svg.xpath('string(*[local-name()="title"])'),'description':svg.xpath('string(*[local-name()="desc"])'),'pass':svg.get('role')=='img' and bool(svg.xpath('string(*[local-name()="title"])')) and bool(svg.xpath('string(*[local-name()="desc"])'))}
  checks['ncx']={'title':ncx_title,'uid_matches_opf':ncx_uid==opf_uid,'pass':ncx_title=='THE LIGHT OF BUDDHA' and ncx_uid==opf_uid}
  checks['epub_metadata']={'titles':titles,'contributors':contributors,'roles':roles,'raster_image_resources':image_count,'pass':'THE LIGHT OF BUDDHA' in titles and 'Jaspal Singh' in contributors and 'com' in roles and image_count==31}
- checks['epub_credit']={'approved_credit_present':any('Compiled and Retold by Jaspal Singh' in t for t in all_epub_text),'old_credit_present':any('Compiled by Jaspal Singh' in t for t in all_epub_text)}
+ checks['epub_credit']={'approved_credit_present':any('Compiled by Jaspal Singh' in t for t in all_epub_text),'old_credit_present':any('Compiled and Retold by Jaspal Singh' in t for t in all_epub_text)}
  checks['epub']={'xml_errors':parse,'missing_local_links':links,'missing_image_alt':alt,'missing_fragment_ids':fragments,'text_characters':textchars,'uncompressed_first_entry_mimetype':z.infolist()[0].filename=='mimetype' and z.infolist()[0].compress_type==0,'pass':not(parse or links or alt or fragments)}
 with fitz.open(R/'release/the-light-of-buddha-volume-1-print.pdf') as d:
  fonts={}; oob=[]; sizes=set(); badglyph=[]; images=[]; rendered_fonts=set()
@@ -87,7 +87,7 @@ with fitz.open(R/'release/the-light-of-buddha-volume-1-print.pdf') as d:
    thumb.thumbnail((145,220));x=((i-first)%5)*160+7;y=((i-first)//5)*290+18
    sheet.paste(thumb,(x,y));draw.text((x,y+225),str(i+1),fill='black')
   sheet.save(Q/f'print-contact-{first+1:03}.jpg',quality=90)
- checks['print']={'pages':len(d),'page_sizes_points':sorted(sizes),'rendered_font_names':sorted(rendered_fonts),'font_count':len(fonts),'font_file_extensions':sorted(set(f[1] for f in fonts.values())),'text_near_page_edges':sorted(set(oob)),'replacement_character_pages':badglyph,'six_by_nine_pass':sizes=={(432.0,648.0)},'approved_credit_present':any('Compiled and Retold by Jaspal Singh' in p.get_text() for p in d)}
+ checks['print']={'pages':len(d),'page_sizes_points':sorted(sizes),'rendered_font_names':sorted(rendered_fonts),'font_count':len(fonts),'font_file_extensions':sorted(set(f[1] for f in fonts.values())),'text_near_page_edges':sorted(set(oob)),'replacement_character_pages':badglyph,'six_by_nine_pass':sizes=={(432.0,648.0)},'approved_credit_present':any('Compiled by Jaspal Singh' in p.get_text() for p in d)}
 checks['issues']=issues
 checks['limitations']=['No Kindle Previewer/device check performed.','No claim of full human proofreading or Buddhist scholarship review.','Structural checks do not constitute EPUBCheck validation.','Native image resolution is measured; upsampling does not create original detail.']
 Q.mkdir(exist_ok=True,parents=True)
@@ -104,7 +104,7 @@ with ZipFile(R/'release/the-light-of-buddha-volume-1.docx') as z:
  media=[n for n in z.namelist() if n.startswith('word/media/')]
 wd=Document(R/'release/the-light-of-buddha-volume-1.docx')
 word_text='\n'.join(p.text for p in wd.paragraphs)
-checks['docx']={'zip_error':docx_zip_error,'xml_errors':docx_xml_errors,'embedded_images':len(media),'approved_credit_present':'Compiled and Retold by Jaspal Singh' in word_text,'old_credit_present':'Compiled by Jaspal Singh' in word_text,'section_sizes_inches':[[round(sec.page_width/914400,2),round(sec.page_height/914400,2)] for sec in wd.sections]}
+checks['docx']={'zip_error':docx_zip_error,'xml_errors':docx_xml_errors,'embedded_images':len(media),'approved_credit_present':'Compiled by Jaspal Singh' in word_text,'old_credit_present':'Compiled and Retold by Jaspal Singh' in word_text,'section_sizes_inches':[[round(sec.page_width/914400,2),round(sec.page_height/914400,2)] for sec in wd.sections]}
 checks['docx']['pass']=not docx_zip_error and not docx_xml_errors and len(media)==30 and checks['docx']['approved_credit_present'] and not checks['docx']['old_credit_present'] and checks['docx']['section_sizes_inches']==[[6.0,9.0]]
 formal=Q/'epubcheck-result.json'
 checks['epubcheck']={'available_result':formal.exists(),'pass':False}

@@ -5,7 +5,7 @@
 - Series: The Light of Buddha
 - Series number: 1
 - Display volume: VOLUME ONE
-- Exact display credit: Compiled and Retold by Jaspal Singh
+- Exact display credit: Compiled by Jaspal Singh
 - Contributor name: Jaspal Singh (first name Jaspal; last name Singh)
 - Language: English; international spelling and usage
 - Primary marketplace recommendation: Amazon.com; distribution also USA, UK, Canada, Australia and India where rights permit
@@ -26,7 +26,7 @@ Arranged in four parts, Volume One follows the search for awakening and turns to
 
 For those beginning to discover Buddhism, and those returning to familiar teachings, this collection offers a thoughtful place to pause, reflect and begin again.
 
-Compiled and Retold by Jaspal Singh
+Compiled by Jaspal Singh
 
 ## Seven keyword phrases — proposed entry fields
 

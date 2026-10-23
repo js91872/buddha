@@ -6,7 +6,7 @@ THE LIGHT OF BUDDHA
 
 The Light of Buddha — Volume 1
 
-Compiled and Retold by Jaspal Singh
+Compiled by Jaspal Singh
 
 English edition. This is a prepublication review edition; the publisher will finalise the imprint, publication date and applicable copyright notice before publication.
 

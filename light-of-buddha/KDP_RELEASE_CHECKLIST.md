@@ -4,7 +4,7 @@ No submission or publication authorised. Local results belong in FINAL_PUBLICATI
 
 ## Identity, editorial and assets
 
-- [x] Final cover, title pages, EPUB/PDF/DOCX and metadata all display **Compiled and Retold by Jaspal Singh**; verify rebuilt files, not just source Markdown.
+- [x] Final cover, title pages, EPUB/PDF/DOCX and metadata all display **Compiled by Jaspal Singh**; verify rebuilt files, not just source Markdown.
 - [ ] Thirty stories and selected interludes receive final editorial/source approval; distinguish AI-agent checking from qualified human/Pali review.
 - [ ] All quotations/renderings retain accurate references and source-language transcription.
 - [ ] Thirty final images and cover visually approved; no missing images, unlicensed replacements or unsupported historical claims.
@@ -15,7 +15,7 @@ No submission or publication authorised. Local results belong in FINAL_PUBLICATI
 
 - [x] Final EPUB structural/navigation/accessibility checks pass. EPUBCheck 5.4.0 passes with zero errors or warnings; the result is bound to the final EPUB hash.
 - [ ] Test reflow, resizing, links and image rendering in Kindle Previewer/devices; record unavailability honestly.
-- [x] Local PDF verification: 129 pages, 6×9 inches, no bleed, embedded Noto Serif, no margin flags; illustrations at 3.74 inches provide 300 native ppi. Final paper/ink approval remains outstanding.
+- [x] Local PDF verification: 124 pages, 6×9 inches, no bleed, embedded Noto Serif, no margin flags; illustrations at 3.74 inches provide 300 native ppi. Final paper/ink approval remains outstanding.
 - [ ] Inspect final PDF pages and DOCX title/images/content; obtain physical colour proof before paperback publication.
 - [x] Final cover is 1600×2560 RGB JPEG; approved credit and thumbnail were visually checked. No full wrap is prepared before print inputs are confirmed.
 - [ ] Integrity-check complete and smaller publishing ZIPs, sizes and retrieval paths.

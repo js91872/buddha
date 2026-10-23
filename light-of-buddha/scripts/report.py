@@ -19,7 +19,7 @@ Status: complete local production package for final human editorial and publishi
 
 ## Contents delivered
 
-Thirty original literary retellings, four thematic parts, thirteen Pali verse/refuge interludes, half-title and full title pages, publication information, dedication, introduction, glossary, pronunciation guide, source notes, selected bibliography, closing reflection, series note and neutral compiler note. Exact display credit: **Compiled and Retold by Jaspal Singh**.
+Thirty original literary retellings, four thematic parts, thirteen Pali verse/refuge interludes, half-title and full title pages, publication information, dedication, introduction, glossary, pronunciation guide, source notes, selected bibliography, closing reflection, series note and neutral compiler note. Exact display credit: **Compiled by Jaspal Singh**.
 
 The complete reader-facing manuscript contains {total_words:,} words under the recorded token-counting method, including front/back matter, headings and source notes, with image alt text and hyperlink URLs excluded. Narratives contain approximately {words:,} words in total; individual narrative counts range from {min(counts.values())} to {max(counts.values())} under the documented automated counting method (illustration alt text and appended reflections/source notes excluded). See validation.json for each story. All thirty story images and the cover are present. The EPUB is reflowable rather than a fixed-layout replica of print.
 
@@ -60,5 +60,6 @@ A paperback full-wrap cover is intentionally absent: approved final trim, page c
 
 Build instructions are in README.md. Source files, art briefs, provenance records, native image masters, research records, typography assets, scripts and QA logs remain in the project tree. SHA256SUMS covers the principal release files listed above.
 '''
+report += '\n## Layout and image optimization\n\nSee `../OPTIMIZATION_REPORT.md` and `../PUBLISHING_ISSUES.md` for the current before/after file sizes, 124-page count, image inventory and remaining review steps. Kindle renditions use separate optimized JPEGs; the print PDF continues to use the unchanged original art.\n'
 (D/'release-report.md').write_text(report)
 print('Wrote complete release report with actual checks and hashes')

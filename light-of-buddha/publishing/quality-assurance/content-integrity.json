@@ -1,0 +1,19 @@
+{
+  "stories": 30,
+  "interludes": 13,
+  "story_headings_present": {
+    "epub": true,
+    "docx": true,
+    "pdf": true
+  },
+  "interlude_headings_present": {
+    "epub": true,
+    "docx": true,
+    "pdf": true
+  },
+  "markdown_word_count": 25268,
+  "docx_word_count": 25268,
+  "epub_word_count_including_toc_and_alt": 26024,
+  "pdf_word_count_including_page_numbers_and_toc": 25755,
+  "story_and_interlude_source_files_unchanged": "verified by comparing their tracked content with the base commit"
+}

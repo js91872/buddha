@@ -311,14 +311,14 @@
       2560
     ],
     "mode": "RGB",
-    "bytes": 2127324,
+    "bytes": 1366890,
     "pass": true
   },
   "cover_accessibility": {
     "role": "img",
     "labelledby": "cover-title cover-description",
     "title": "THE LIGHT OF BUDDHA",
-    "description": "Serene Buddha meditating beneath a Bodhi tree. 30 Timeless Stories of Wisdom, Compassion & Inner Peace. VOLUME ONE. Compiled and Retold by Jaspal Singh.",
+    "description": "Serene Buddha meditating beneath a Bodhi tree. 30 Timeless Stories of Wisdom, Compassion & Inner Peace. VOLUME ONE. Compiled by Jaspal Singh.",
     "pass": true
   },
   "ncx": {
@@ -349,12 +349,12 @@
     "missing_local_links": [],
     "missing_image_alt": [],
     "missing_fragment_ids": [],
-    "text_characters": 165450,
+    "text_characters": 170323,
     "uncompressed_first_entry_mimetype": true,
     "pass": true
   },
   "print": {
-    "pages": 129,
+    "pages": 124,
     "page_sizes_points": [
       [
         432.0,
@@ -402,13 +402,13 @@
       "java",
       "-jar",
       "/workspace/tools/epubcheck/epubcheck-5.4.0/epubcheck.jar",
-      "/workspace/light-of-buddha/release/the-light-of-buddha-volume-1.epub",
+      "/workspace/buddha-export-staging/repository/light-of-buddha/release/the-light-of-buddha-volume-1.epub",
       "--json",
-      "/workspace/light-of-buddha/publishing/quality-assurance/epubcheck-detailed.json"
+      "/workspace/buddha-export-staging/repository/light-of-buddha/publishing/quality-assurance/epubcheck-detailed.json"
     ],
     "exit_code": 0,
     "version": "EPUBCheck v5.4.0",
-    "epub_sha256": "84d6fb15f5e2295af978ff5837a224bd8f3f846b5f127c3a77f9805b9a1969b0",
+    "epub_sha256": "ebc6a2ee38ab12caeeaa3c214593a2ae34ffd3fb2ec89635752a078006e8ecda",
     "jar_sha256": "2146665a124998dc6c908010ffe0d09dc4f4c8014f2c8fd6a1aa11f64c40ac93",
     "pass": true,
     "messages": {
@@ -420,7 +420,7 @@
     "available_result": true,
     "hash_matches_current_epub": true
   },
-  "complete_manuscript_word_count": 25276,
+  "complete_manuscript_word_count": 25268,
   "word_count_method": "Unicode word tokens with optional internal apostrophe or hyphen; image alt and hyperlink URLs excluded; all reader-facing prose/headings/source notes included",
   "gates": {
     "narrative_lengths": true,

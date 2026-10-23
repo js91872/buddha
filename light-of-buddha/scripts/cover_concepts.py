@@ -15,7 +15,7 @@ for letter in ['A','C']:
  t('VOLUME ONE',740,35,sans)
  # A minimal dark footing makes the exact subordinate credit readable.
  foot=Image.new('RGBA',im.size);ImageDraw.Draw(foot).rectangle((0,2350,1600,2560),fill=(9,31,38,175));im=Image.alpha_composite(im,foot);d=ImageDraw.Draw(im)
- t('Compiled and Retold by Jaspal Singh',2410,49)
+ t('Compiled by Jaspal Singh',2410,49)
  im.convert('RGB').save(R/f'cover/concepts/cover-concept-{letter}.jpg',quality=95,subsampling=0)
 Image.open(R/'release/kindle-cover.jpg').save(R/'cover/concepts/cover-concept-B.jpg',quality=95)
 sheet=Image.new('RGB',(900,500),'#eee7da')

@@ -1,0 +1,48 @@
+{
+  "base_commit": "6a7a7821e4e3605be516f7ddfce97e73b9899c2b",
+  "source_content_story_and_verse_files_unchanged": true,
+  "files": {
+    "epub": {
+      "before_bytes": 30792392,
+      "after_bytes": 16413506,
+      "saved_bytes": 14378886
+    },
+    "print_pdf": {
+      "before_bytes": 35981571,
+      "after_bytes": 35978999,
+      "saved_bytes": 2572
+    },
+    "cover": {
+      "before_bytes": 2127324,
+      "after_bytes": 1366890,
+      "saved_bytes": 760434,
+      "dimensions": [
+        1600,
+        2560
+      ]
+    },
+    "story_image_payloads": {
+      "before_bytes": 28546593,
+      "after_bytes": 14906079
+    },
+    "all_epub_image_payloads": {
+      "before_bytes": 30673917,
+      "after_bytes": 16272969,
+      "unique_after": 31,
+      "count_after": 31,
+      "duplicate_payloads_after": false
+    }
+  },
+  "print_pages": {
+    "before": 129,
+    "after": 124,
+    "blank_after": [],
+    "under_35_text_words_after": [
+      1,
+      2,
+      4,
+      10
+    ]
+  },
+  "image_inventory_count": 157
+}

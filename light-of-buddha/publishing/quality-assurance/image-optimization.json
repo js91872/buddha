@@ -1,0 +1,608 @@
+{
+  "purpose": "Reflowable Kindle image renditions only; print PDF continues to use untouched originals. Native masters and original JPEG assets remain in artwork/story-illustrations/.",
+  "images": [
+    {
+      "source": "artwork/story-illustrations/01.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1059118,
+      "source_sha256": "497c4de6745cd745c7b9864774dfac4824d01fa7b1445db211c67e2747983ec8",
+      "kindle": "publishing/kindle/images/01.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 555670,
+      "kindle_sha256": "19090b36ea0a2077d03667d18a68d42753da69a071c17f62bb3ce4aa7766a74f",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/02.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 863380,
+      "source_sha256": "fde7f16689f9e4a563a745509fbe4c245c92fdca7f72da01d19a0ec4505fb16f",
+      "kindle": "publishing/kindle/images/02.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 462280,
+      "kindle_sha256": "2e2b9052a93ac8b3a9878187147d5417244dfdb7486672d28e470b78724f17ac",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/03.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 984409,
+      "source_sha256": "780a4996a244b339860034a9cc7f1c27a1e280152ca19994a147adde8ab3798f",
+      "kindle": "publishing/kindle/images/03.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 511608,
+      "kindle_sha256": "5f1df46cbd9ecac955b6fe2b63c153e9b6897f1465252dd95186fb179d064e57",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/04.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 788117,
+      "source_sha256": "8f07434b54af8e0753b7e6c5b63eb89c45d2b43d3524cda5ec917d03f73a6c16",
+      "kindle": "publishing/kindle/images/04.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 398396,
+      "kindle_sha256": "972c4378136ad64c6b474746093d05a67b54e45804a4376b8448a56bc7df647b",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/05.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 974044,
+      "source_sha256": "f51db3437136551a8e757fca3b116459959ea059e1baf22c586ef2a76de29439",
+      "kindle": "publishing/kindle/images/05.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 509030,
+      "kindle_sha256": "0b0819cadfe724a5e68ce90757092c6f70c507f6bf522f3d95a7f9e3cd0b44bd",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/06.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1010504,
+      "source_sha256": "3071b345a8d9d8134b1c1c1f39c4d784280b783a1d595e1c05477e01bd0d6171",
+      "kindle": "publishing/kindle/images/06.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 527620,
+      "kindle_sha256": "81535b9e6aae7405a21bdfb40406e85ef0e1e41ddbbf7a27076042e80e1b98d7",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/07.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1097624,
+      "source_sha256": "8f04d34d60a573f7f42ff2e5a2b2135cc239d455b00d3844cde1e69538bd8672",
+      "kindle": "publishing/kindle/images/07.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 576538,
+      "kindle_sha256": "6a3975dc4fcfb09595f1fcfdb36062d5186f233f3f766dca3856f81b177f1124",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/08.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1076926,
+      "source_sha256": "3c4d7897833c8806eaa6b3aaae3968bd87f533dc8cdfd5c62fe787739c94c831",
+      "kindle": "publishing/kindle/images/08.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 569062,
+      "kindle_sha256": "d3c223b25b773f464389617d199298b3689bbeb12aaf083584b180e1e730bbb5",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/09.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 982327,
+      "source_sha256": "8b71ea3c2a03f2e1db12f896c90a5e4768ab460e6341026ecef003402c3534c9",
+      "kindle": "publishing/kindle/images/09.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 517191,
+      "kindle_sha256": "340fb2b831245b11b620bdf347992543b31c3556725ea025dbfdcfd89c7bcd8a",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/10.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1119482,
+      "source_sha256": "6ddaee172f2d2c45739a862a0ebac3d3cdbd093d7d80ee20c0022c364b86f1ca",
+      "kindle": "publishing/kindle/images/10.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 592934,
+      "kindle_sha256": "12a3c524f84eb4d8a8c2a70ed23ce804b9fb7ceb16d2c56a751c830c83371f12",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/11.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1052070,
+      "source_sha256": "f7e7d4fa3171c993cd6d8a5ac97026b36635651e602e897fd09e72bc92ae40e0",
+      "kindle": "publishing/kindle/images/11.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 565568,
+      "kindle_sha256": "33a531a549e3089ff4d84eb1369de32423cb07909be6ff88b826e56a12cad000",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/12.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 873298,
+      "source_sha256": "2dd526137600e738c3c88612c1f7efe201d71380c9a9e3a5ab1aed28e0a53d9b",
+      "kindle": "publishing/kindle/images/12.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 452406,
+      "kindle_sha256": "c905818faa8b02da2d46a2fa65b3a0de457b446c3099fc38dd628f3ac8b09e67",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/13.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1020656,
+      "source_sha256": "982e9ec70464920045efb9a4e70875062a5185496d7caedb302f96f44f27eba7",
+      "kindle": "publishing/kindle/images/13.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 526307,
+      "kindle_sha256": "1950ba4694f2858e2a5cb763953a710528d67a8023f4148589d69cbe7673bd8e",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/14.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1002542,
+      "source_sha256": "f7826c27e6ba08d701bc6a3cd3e05ba9fec39570d5aa125c61cec51c8bed6d15",
+      "kindle": "publishing/kindle/images/14.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 533614,
+      "kindle_sha256": "538e09764d6657d8dfa85dc99f16a414625810916f82b84468da9db016430513",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/15.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 880229,
+      "source_sha256": "a4117c9fc4cfc980c3698f416bd6eca18a16a04d5ad00ccd229f7f6e812405f1",
+      "kindle": "publishing/kindle/images/15.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 462830,
+      "kindle_sha256": "b6237b3c1cd709ca0f7cf0c0199f3561b454f54b8b953566f4c064f5315218e9",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/16.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 897254,
+      "source_sha256": "9def8d25d92f7077a8181635de158efd63ebb32a4c242e08050787930a8cdea2",
+      "kindle": "publishing/kindle/images/16.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 469984,
+      "kindle_sha256": "b91c970364342101cb25302a80a2620bbf283bdcd8aeaa92483ae0ad35ab0056",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/17.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 888204,
+      "source_sha256": "b0c337720346f6d43cc6c43c1d4eab5098f4d050f8d0e19fcb74552cdc686068",
+      "kindle": "publishing/kindle/images/17.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 463126,
+      "kindle_sha256": "380d4e77d0ed8486cd30dbac2eb9ae1f50a201606c482b195ef36db1d11c24dd",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/18.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 684671,
+      "source_sha256": "aad74c214a960a8aaf90520d8bd6f9bb55e1c257753778088671a9715cd6ff7b",
+      "kindle": "publishing/kindle/images/18.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 353366,
+      "kindle_sha256": "c9db024b7e07d1fb7f8c00e4c442411c4b5e92d842ac7327506eeba51615bb99",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/19.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1008723,
+      "source_sha256": "63cec952e78b14d4e7ac98319f20358977a8882294246c42f890f77cc7d4331e",
+      "kindle": "publishing/kindle/images/19.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 519238,
+      "kindle_sha256": "2a5361460832a1420244e74d0d62c881ccb5ffc34a546a632fcf3eabca1911c6",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/20.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 645008,
+      "source_sha256": "98d81046aa6976ba3fbfeebde698cb5255692fdb1fe3d1c41716fa6a8e58fea9",
+      "kindle": "publishing/kindle/images/20.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 334529,
+      "kindle_sha256": "ee9d7aa443ac3888b9b67f3b42559377c2fc8b14ebe9fd6d842207965d39fe35",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/21.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1035096,
+      "source_sha256": "4c43a1ed6d1149ac15ab0347f6d0a5af38552c58828522aa3c609953a982b16a",
+      "kindle": "publishing/kindle/images/21.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 548415,
+      "kindle_sha256": "619450ab07415d984c29801414e195e2ed5b33e0afc48803e1c33ca2a11a0b24",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/22.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 951480,
+      "source_sha256": "1dfc82b5d851c567e111083613a005b539f44335f9a8ee727b5817082b03b200",
+      "kindle": "publishing/kindle/images/22.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 500538,
+      "kindle_sha256": "e6d290162dd00fa1596ebf860bd71a310f22bf28a776fab19050d118385e3c99",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/23.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 993695,
+      "source_sha256": "df59a435d6bf20dba997206a4c99bee1b911cfb5754155f58903e9228995adbf",
+      "kindle": "publishing/kindle/images/23.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 512628,
+      "kindle_sha256": "654ca1d823e493886b4d9a6291595dcc7015b984f15a58fe15ac8b3aa9aec440",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/24.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1076658,
+      "source_sha256": "b85fb60deef407ffbb05576ff63baac60f3e441f6843130ae5985320f92cb49e",
+      "kindle": "publishing/kindle/images/24.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 560826,
+      "kindle_sha256": "126324ac567f09555ad35cdaa512c227a7121a1012ca65a591e19154504cfb96",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/25.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1032954,
+      "source_sha256": "6194a8a508f72b3274c2c891eb7c8d214b7be42cccb2698443ab7e72d34378cf",
+      "kindle": "publishing/kindle/images/25.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 537175,
+      "kindle_sha256": "63c9efd43d7b2372cfd5c8d809c6067c86c7787fd6ea5ba2c55df155f4474243",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/26.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 826478,
+      "source_sha256": "5b8d7f4b8b2d00d1c4e22742208df2fbd70254200572f88451133533d51ceb84",
+      "kindle": "publishing/kindle/images/26.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 422465,
+      "kindle_sha256": "b28d6ce94cc56bc58a0dd78ba0c26e508b723d2715511f34e3b5f1d76489ceb4",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/27.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 1077167,
+      "source_sha256": "9836e472f094bef1a359bced9296ed8ce16331420a3dfd2ed5c23906c73fc46a",
+      "kindle": "publishing/kindle/images/27.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 566775,
+      "kindle_sha256": "dd3ac97c4107ed95585f9bf0a60ac538106c611ad7d91d916d19a7eb809648a8",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/28.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 752451,
+      "source_sha256": "b99b745cb4aebbe29208e1b20435d3328c2d707c2b9382265a235696618d1f79",
+      "kindle": "publishing/kindle/images/28.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 374429,
+      "kindle_sha256": "5239c9d744a551237ce79b1fa6992369cb567988d6177c45b085afe70aa04a61",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/29.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 989783,
+      "source_sha256": "4eae1080d03425954328e61b9df5ea380dd4eba0eefdf838b52e5c787daf9562",
+      "kindle": "publishing/kindle/images/29.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 515560,
+      "kindle_sha256": "8192e71aad354d91a854f72a02694d985eb5fc2f6955d78637c670a82f96f405",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    },
+    {
+      "source": "artwork/story-illustrations/30.jpg",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 902245,
+      "source_sha256": "fa73ef95e71336cc4553749fadb88c8be7cd5ea6d1a86cfa9d24fda58363db66",
+      "kindle": "publishing/kindle/images/30.jpg",
+      "kindle_format": "JPEG",
+      "kindle_dimensions": [
+        1122,
+        1402
+      ],
+      "kindle_bytes": 465971,
+      "kindle_sha256": "7c748fd81e0415c8f261b14530b2468816532157f59bc47c307ffa6179bb056f",
+      "quality": 82,
+      "subsampling": "4:4:4"
+    }
+  ],
+  "source_total_bytes": 28546593,
+  "kindle_total_bytes": 14906079,
+  "saved_bytes": 13640514
+}

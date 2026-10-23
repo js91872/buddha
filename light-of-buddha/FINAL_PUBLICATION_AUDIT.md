@@ -1,3 +1,5 @@
+> **Superseded for current layout, credit and file sizes by OPTIMIZATION_REPORT.md (23 October 2026).** This records the preceding publication audit.
+
 # Final publication audit — The Light of Buddha, Volume 1
 
 Final audited local edition, 23 October 2026. Prepared for final human editorial and publishing approval; no Amazon submission or publication.

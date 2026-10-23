@@ -1,0 +1,16 @@
+[
+  {
+    "file": "The_Light_of_Buddha_Volume_1_Optimized_Complete.zip",
+    "bytes": 241913087,
+    "sha256": "88b522b59bfda77d164f22786dd9af86c704435da09bb2f5cfdebc7802c876f6",
+    "members": 393,
+    "crc_test": "pass"
+  },
+  {
+    "file": "The_Light_of_Buddha_Volume_1_Optimized_Kindle_Package.zip",
+    "bytes": 75616326,
+    "sha256": "c22861b3ea558d2576c11a496d361ea80b131c5ca4a5dc05d3885986148b365a",
+    "members": 21,
+    "crc_test": "pass"
+  }
+]

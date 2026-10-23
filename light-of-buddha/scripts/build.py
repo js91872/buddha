@@ -8,7 +8,7 @@ REL=ROOT/'release'; REL.mkdir(exist_ok=True)
 QA=ROOT/'publishing/quality-assurance'; QA.mkdir(parents=True,exist_ok=True)
 TITLE='THE LIGHT OF BUDDHA'
 SUB='30 Timeless Stories of Wisdom, Compassion & Inner Peace'
-CREDIT='Compiled and Retold by Jaspal Singh'
+CREDIT='Compiled by Jaspal Singh'
 PARTS={1:'PART I: The Prince Who Searched for Truth',8:'PART II: Lessons That Awaken the Heart',16:'PART III: Compassion That Changes Lives',24:'PART IV: Wisdom for Every Day'}
 
 def norm(s):
@@ -34,6 +34,8 @@ if '--final' in sys.argv:
   if not (ROOT/f'artwork/story-illustrations/{n:02}.jpg').is_file():raise SystemExit(f'Missing story illustration {n:02}')
  if not (REL/'kindle-cover.jpg').is_file():raise SystemExit('Missing approved Kindle marketing cover')
  if CREDIT not in '\n'.join(p.read_text() for p in front):raise SystemExit('Approved contributor display credit missing from front matter')
+for n in range(1,31):
+ if not (ROOT/f'publishing/kindle/images/{n:02}.jpg').is_file():raise SystemExit(f'Missing optimized Kindle image {n:02}')
 chunks=[p.read_text() for p in front]
 if not front:
  chunks=[f'# {TITLE}\n\n{SUB}\n\nVOLUME ONE\n\n{CREDIT}\n']
@@ -51,14 +53,19 @@ for p in stories:
 chunks.extend(p.read_text() for p in back)
 combined='\n\n'.join(chunks)
 (ROOT/'manuscript/complete-manuscript.md').write_text(combined)
-css='''body{font-family:serif;line-height:1.5} h1,h2,h3{line-height:1.2;text-align:left;page-break-after:avoid} h1{margin-top:1.5em} p{text-indent:0;margin:.7em 0} img{display:block;margin:1em auto;max-width:100%;max-height:90vh;height:auto} figure{text-align:center;margin:1.2em 0} figcaption{font-size:.8em} a{overflow-wrap:anywhere}'''
+kindle_source=combined
+for image_number in range(1,31):
+ kindle_source=kindle_source.replace(f'artwork/story-illustrations/{image_number:02}.jpg',f'publishing/kindle/images/{image_number:02}.jpg')
+(ROOT/'publishing/kindle/complete-manuscript-kindle.md').write_text(kindle_source)
+css='''body{font-family:serif;line-height:1.45;margin:0 4%;orphans:3;widows:3} h1,h2,h3{line-height:1.2;text-align:left;break-after:avoid;page-break-after:avoid} h1{margin:1.25em 0 .65em;break-before:avoid-page;page-break-before:avoid} h2,h3{margin:1.1em 0 .5em} p{text-indent:0;margin:0 0 .8em} img{display:block;margin:1em auto;max-width:100%;width:auto;height:auto} figure{text-align:center;margin:1.2em 0} figcaption{font-size:.8em} a{overflow-wrap:anywhere}'''
 (ROOT/'publishing/kindle/style.css').write_text(css)
 meta='''<?xml version="1.0" encoding="UTF-8"?>
-<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf"><dc:identifier>urn:uuid:6332597e-c11d-5d62-a639-d50443bea97b</dc:identifier><dc:title>THE LIGHT OF BUDDHA</dc:title><dc:language>en</dc:language><dc:contributor id="compiler">Jaspal Singh</dc:contributor><meta refines="#compiler" property="role" scheme="marc:relators">com</meta><dc:description>30 Timeless Stories of Wisdom, Compassion &amp; Inner Peace. Volume One. Compiled and Retold by Jaspal Singh.</dc:description></metadata>'''
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf"><dc:identifier>urn:uuid:6332597e-c11d-5d62-a639-d50443bea97b</dc:identifier><dc:title>THE LIGHT OF BUDDHA</dc:title><dc:language>en</dc:language><dc:contributor id="compiler">Jaspal Singh</dc:contributor><meta refines="#compiler" property="role" scheme="marc:relators">com</meta><dc:description>30 Timeless Stories of Wisdom, Compassion &amp; Inner Peace. Volume One. Compiled by Jaspal Singh.</dc:description></metadata>'''
 (ROOT/'publishing/metadata/epub-metadata.xml').write_text(meta)
 args=['pandoc','manuscript/complete-manuscript.md','--from=markdown-implicit_figures','--standalone','--toc','--toc-depth=1','--metadata=lang:en','--resource-path=.:manuscript']
 cover=ROOT/'release/kindle-cover.jpg'
-epub=args+['--metadata=title:'+TITLE,'--metadata=subtitle:'+SUB,'--to=epub3','--split-level=1','--epub-title-page=false','--epub-metadata=publishing/metadata/epub-metadata.xml','--css=publishing/kindle/style.css']
+epub=args.copy(); epub[1]='publishing/kindle/complete-manuscript-kindle.md'
+epub+=['--metadata=title:'+TITLE,'--metadata=subtitle:'+SUB,'--to=epub3','--split-level=6','--epub-title-page=false','--epub-metadata=publishing/metadata/epub-metadata.xml','--css=publishing/kindle/style.css']
 if cover.exists(): epub+=['--epub-cover-image='+str(cover)]
 run(epub+['-o',str(REL/'the-light-of-buddha-volume-1.epub')],'epub-build.log')
 # Explicitly install Dublin Core metadata; Pandoc versions differ in XML-wrapper handling.
@@ -183,7 +190,7 @@ for chunk_index,chunk in enumerate(chunks):
  if chunk_index==len(front):
   if flow: flow.append(PageBreak())
   flow.extend([Paragraph('Contents',styles['BookTitle']),toc])
- if flow: flow.append(PageBreak())
+ if flow and (chunk_index < len(front) or chunk_index == len(front) or chunk.lstrip().startswith('# PART ')): flow.append(PageBreak())
  for block in re.split(r'\n\s*\n',norm(chunk)):
   block=block.strip()
   if not block: continue

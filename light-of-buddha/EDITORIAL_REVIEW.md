@@ -6,7 +6,7 @@ This project was researched, drafted, edited and checked by AI agents. No Buddhi
 
 The 30-source outline is recorded in manuscript/editorial-outline.md. A source-led Pali focus was chosen rather than mixing anonymous modern anecdotes into a supposed historical biography. The four thematic parts retain the requested exact names. Stories are original retellings, with indirect dialogue and separate Wisdom to Remember, practical reflection and source notes. Canonical inclusion is distinguished from historical verification. Sensory staging, symbolic illustrations and supernatural events are identified.
 
-The book uses international English and retains readable names in running prose, with diacritics in source notes, glossary and Pali interludes. The compiler credit remains exactly “Compiled and Retold by Jaspal Singh”; no personal biography has been invented.
+The book uses international English and retains readable names in running prose, with diacritics in source notes, glossary and Pali interludes. The compiler credit remains exactly “Compiled by Jaspal Singh”; no personal biography has been invented.
 
 ## Recorded substantive corrections
 
@@ -26,4 +26,4 @@ Before publication, a qualified human Buddhist reader should review doctrinal nu
 
 ## Final audit update
 
-All thirty current stories and thirteen interludes were read again in the final audit. Six bounded narrative corrections and international-spelling fixes were made; no story or verse was regenerated. The actual changes, file hashes and source-check limits are documented under publishing/quality-assurance/final-audit/. The new approved credit is “Compiled and Retold by Jaspal Singh”. Human editorial and Pali approval remains outstanding.
+All thirty current stories and thirteen interludes were read again in the final audit. Six bounded narrative corrections and international-spelling fixes were made; no story or verse was regenerated. The actual changes, file hashes and source-check limits are documented under publishing/quality-assurance/final-audit/. The new approved credit is “Compiled by Jaspal Singh”. Human editorial and Pali approval remains outstanding.

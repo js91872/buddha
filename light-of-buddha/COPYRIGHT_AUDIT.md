@@ -18,7 +18,7 @@ Official references checked 23 October 2026: [KDP Content Guidelines](https://kd
 
 ## Final-audit addendum — 23 October 2026
 
-The approved display credit is now **Compiled and Retold by Jaspal Singh**. This describes the editorial role; it does not assert that every passage was personally drafted, translated or illustrated by him. Internal KDP_AI_DISCLOSURE.md records actual generated prose, art and English renderings. Consumer listing copy need not carry an unnecessary AI statement; KDP's submission disclosure remains mandatory.
+The approved display credit is now **Compiled by Jaspal Singh**. This describes the editorial role; it does not assert that every passage was personally drafted, translated or illustrated by him. Internal KDP_AI_DISCLOSURE.md records actual generated prose, art and English renderings. Consumer listing copy need not carry an unnecessary AI statement; KDP's submission disclosure remains mandatory.
 
 Rights evidence rechecked live: [Bilara's CC0 licence](https://github.com/suttacentral/bilara-data/blob/published/LICENSE.md) and [ATI Soma translation's CC BY-NC4.0 footer](https://www.accesstoinsight.org/tipitaka/sn/sn05/sn05.002.than.html). Ancient narrative content is distinct from protected modern expression. No blanket commercial licence for ATI, BDK,84000,CBETA or museum photography is asserted. No museum asset was added during this pass. Source-specific records and independent manuscript readings support the editorial provenance but do not constitute a comprehensive plagiarism database comparison or legal clearance.
 

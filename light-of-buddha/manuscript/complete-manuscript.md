@@ -11,7 +11,7 @@ The Light of Buddha — Volume 1
 
 VOLUME ONE
 
-Compiled and Retold by Jaspal Singh
+Compiled by Jaspal Singh
 
 
 # Publication Information
@@ -22,7 +22,7 @@ THE LIGHT OF BUDDHA
 
 The Light of Buddha — Volume 1
 
-Compiled and Retold by Jaspal Singh
+Compiled by Jaspal Singh
 
 English edition. This is a prepublication review edition; the publisher will finalise the imprint, publication date and applicable copyright notice before publication.
 
@@ -1802,6 +1802,6 @@ Contextual sections of these works informed the distinction between canonical re
 
 # About the Compiler
 
-Compiled and Retold by Jaspal Singh
+Compiled by Jaspal Singh
 
-Jaspal Singh is credited as compiler and reteller of *The Light of Buddha — Volume 1*.
+Jaspal Singh is credited as compiler of *The Light of Buddha — Volume 1*.

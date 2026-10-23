@@ -1,4 +1,4 @@
-$ java -jar /workspace/tools/epubcheck/epubcheck-5.4.0/epubcheck.jar /workspace/light-of-buddha/release/the-light-of-buddha-volume-1.epub --json /workspace/light-of-buddha/publishing/quality-assurance/epubcheck-detailed.json
+$ java -jar /workspace/tools/epubcheck/epubcheck-5.4.0/epubcheck.jar /workspace/buddha-export-staging/repository/light-of-buddha/release/the-light-of-buddha-volume-1.epub --json /workspace/buddha-export-staging/repository/light-of-buddha/publishing/quality-assurance/epubcheck-detailed.json
 No errors or warnings detected.
 Messages: 0 fatals / 0 errors / 0 warnings / 0 infos
 
