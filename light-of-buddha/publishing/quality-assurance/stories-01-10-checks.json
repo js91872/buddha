@@ -1,0 +1,92 @@
+[
+  {
+    "story": 1,
+    "file": "01-the-search-no-teacher-could-finish.md",
+    "narrative_words": 529,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  },
+  {
+    "story": 2,
+    "file": "02-the-shade-he-remembered.md",
+    "narrative_words": 533,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  },
+  {
+    "story": 3,
+    "file": "03-the-cowherd-of-the-mind.md",
+    "narrative_words": 531,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  },
+  {
+    "story": 4,
+    "file": "04-when-the-forest-made-a-sound.md",
+    "narrative_words": 530,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  },
+  {
+    "story": 5,
+    "file": "05-the-lotuses-not-yet-open.md",
+    "narrative_words": 524,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  },
+  {
+    "story": 6,
+    "file": "06-a-way-between-the-extremes.md",
+    "narrative_words": 529,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  },
+  {
+    "story": 7,
+    "file": "07-what-the-hand-cannot-hold.md",
+    "narrative_words": 523,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  },
+  {
+    "story": 8,
+    "file": "08-the-mirror-before-the-deed.md",
+    "narrative_words": 525,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  },
+  {
+    "story": 9,
+    "file": "09-the-question-that-could-wait.md",
+    "narrative_words": 517,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  },
+  {
+    "story": 10,
+    "file": "10-a-calmness-put-to-the-test.md",
+    "narrative_words": 512,
+    "wisdom": true,
+    "reflection": true,
+    "source": true,
+    "source_link": true
+  }
+]

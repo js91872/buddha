@@ -1,0 +1,7 @@
+EPUBCheck availability check (23 October2026)
+command -v epubcheck: executable unavailable
+find /usr/share -iname '*epubcheck*': no installed EPUBCheck jar found
+Attempted download discovery with Python urllib: sandbox network operation not permitted.
+A subsequent additional-network-permission request did not complete and was aborted after approximately24minutes.
+curl --connect-timeout10 --max-time20 https://api.github.com/repos/w3c/epubcheck/releases/latest: exit7, failed to connect proxy:8080.
+Result: EPUBCheck NOT RUN. Custom XML/navigation/link checks are not a substitute.

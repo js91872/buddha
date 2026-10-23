@@ -1,0 +1,72 @@
+{
+  "verified_at": "2026-10-23T21:09:15.849263+05:30",
+  "release_files": [
+    {
+      "name": "SHA256SUMS",
+      "path": "/workspace/light-of-buddha/release/SHA256SUMS",
+      "bytes": 466,
+      "sha256": "7b348cf129bc1e378147d605ad14823466b22cdec8fe839e075a5d24d08e5b7e"
+    },
+    {
+      "name": "kindle-cover.jpg",
+      "path": "/workspace/light-of-buddha/release/kindle-cover.jpg",
+      "bytes": 2120684,
+      "sha256": "216d962da3319da8c7d18f8986390f0facadb3129b0a8bf331a5c7f91464d2de"
+    },
+    {
+      "name": "metadata.md",
+      "path": "/workspace/light-of-buddha/release/metadata.md",
+      "bytes": 4683,
+      "sha256": "0ef99e3188316c6b401d1859449b363ab845d1362b0cb53778594abb63134c3e"
+    },
+    {
+      "name": "release-report.md",
+      "path": "/workspace/light-of-buddha/release/release-report.md",
+      "bytes": 6352,
+      "sha256": "a928fbff3da34deb54b8a71a06a2044b86f5aec2224e18be64f8d56153c2109f"
+    },
+    {
+      "name": "the-light-of-buddha-volume-1-print.pdf",
+      "path": "/workspace/light-of-buddha/release/the-light-of-buddha-volume-1-print.pdf",
+      "bytes": 35984668,
+      "sha256": "c74cd02f1657ae3d76d52fa997f9417f54b4868d2a89c37da01b80b23f34b87c"
+    },
+    {
+      "name": "the-light-of-buddha-volume-1.docx",
+      "path": "/workspace/light-of-buddha/release/the-light-of-buddha-volume-1.docx",
+      "bytes": 28632414,
+      "sha256": "b697e872b7db4311a1e6657a153314e06bae22d854a30e162a923ffdcbf1febe"
+    },
+    {
+      "name": "the-light-of-buddha-volume-1.epub",
+      "path": "/workspace/light-of-buddha/release/the-light-of-buddha-volume-1.epub",
+      "bytes": 30786457,
+      "sha256": "af5d508844a77eaf3bdbe4ee654421e18d948cf3a8a2b821141ec167f4137814"
+    }
+  ],
+  "release_checksums_match": true,
+  "archive": {
+    "path": "/workspace/the-light-of-buddha-volume-1-project.zip",
+    "bytes": 240017651,
+    "sha256": "9cbadf04ba63bad13afdd59cb338d98d5cd695a2da40d46f3f96cc12f16268d6",
+    "matches_original_recorded_sha256": true,
+    "files": 319,
+    "crc_error": null,
+    "missing_workspace_members": [],
+    "differing_workspace_members": [],
+    "workspace_files_not_in_archive": [
+      "scripts/download_copies.py"
+    ]
+  },
+  "github": {
+    "task_repository": null,
+    "workspace_git_repository": false,
+    "github_connector_available": true,
+    "target_repository_identified": false,
+    "cli_authentication_verified": false,
+    "git_lfs_installed": true,
+    "release_asset_upload_tool_available": false,
+    "uploaded_files": []
+  },
+  "original_files_modified": false
+}

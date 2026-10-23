@@ -1,0 +1,368 @@
+{
+  "image_count": 30,
+  "unique_hashes": 30,
+  "missing_asset_records": [],
+  "all_rgb": true,
+  "images": [
+    {
+      "number": 1,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "497c4de6745cd745c7b9864774dfac4824d01fa7b1445db211c67e2747983ec8",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 2,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "fde7f16689f9e4a563a745509fbe4c245c92fdca7f72da01d19a0ec4505fb16f",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 3,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "780a4996a244b339860034a9cc7f1c27a1e280152ca19994a147adde8ab3798f",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 4,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "8f07434b54af8e0753b7e6c5b63eb89c45d2b43d3524cda5ec917d03f73a6c16",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 5,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "f51db3437136551a8e757fca3b116459959ea059e1baf22c586ef2a76de29439",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 6,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "3071b345a8d9d8134b1c1c1f39c4d784280b783a1d595e1c05477e01bd0d6171",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 7,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "8f04d34d60a573f7f42ff2e5a2b2135cc239d455b00d3844cde1e69538bd8672",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 8,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "3c4d7897833c8806eaa6b3aaae3968bd87f533dc8cdfd5c62fe787739c94c831",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 9,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "8b71ea3c2a03f2e1db12f896c90a5e4768ab460e6341026ecef003402c3534c9",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 10,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "6ddaee172f2d2c45739a862a0ebac3d3cdbd093d7d80ee20c0022c364b86f1ca",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 11,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "f7e7d4fa3171c993cd6d8a5ac97026b36635651e602e897fd09e72bc92ae40e0",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 12,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "2dd526137600e738c3c88612c1f7efe201d71380c9a9e3a5ab1aed28e0a53d9b",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 13,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "982e9ec70464920045efb9a4e70875062a5185496d7caedb302f96f44f27eba7",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 14,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "f7826c27e6ba08d701bc6a3cd3e05ba9fec39570d5aa125c61cec51c8bed6d15",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 15,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "a4117c9fc4cfc980c3698f416bd6eca18a16a04d5ad00ccd229f7f6e812405f1",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 16,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "9def8d25d92f7077a8181635de158efd63ebb32a4c242e08050787930a8cdea2",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 17,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "b0c337720346f6d43cc6c43c1d4eab5098f4d050f8d0e19fcb74552cdc686068",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 18,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "aad74c214a960a8aaf90520d8bd6f9bb55e1c257753778088671a9715cd6ff7b",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 19,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "63cec952e78b14d4e7ac98319f20358977a8882294246c42f890f77cc7d4331e",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 20,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "98d81046aa6976ba3fbfeebde698cb5255692fdb1fe3d1c41716fa6a8e58fea9",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 21,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "4c43a1ed6d1149ac15ab0347f6d0a5af38552c58828522aa3c609953a982b16a",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 22,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "1dfc82b5d851c567e111083613a005b539f44335f9a8ee727b5817082b03b200",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 23,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "df59a435d6bf20dba997206a4c99bee1b911cfb5754155f58903e9228995adbf",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 24,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "b85fb60deef407ffbb05576ff63baac60f3e441f6843130ae5985320f92cb49e",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 25,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "6194a8a508f72b3274c2c891eb7c8d214b7be42cccb2698443ab7e72d34378cf",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 26,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "5b8d7f4b8b2d00d1c4e22742208df2fbd70254200572f88451133533d51ceb84",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 27,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "9836e472f094bef1a359bced9296ed8ce16331420a3dfd2ed5c23906c73fc46a",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 28,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "b99b745cb4aebbe29208e1b20435d3328c2d707c2b9382265a235696618d1f79",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 29,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "4eae1080d03425954328e61b9df5ea380dd4eba0eefdf838b52e5c787daf9562",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    },
+    {
+      "number": 30,
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "fa73ef95e71336cc4553749fadb88c8be7cd5ea6d1a86cfa9d24fda58363db66",
+      "alt_present": true,
+      "brief_present": true,
+      "master_present": true
+    }
+  ]
+}

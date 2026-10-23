@@ -1,0 +1,218 @@
+{
+  "scope": "Mechanical editorial checks only; source truth and literary quality require reading.",
+  "stories": [
+    {
+      "file": "manuscript/stories/01-the-search-no-teacher-could-finish.md",
+      "narrative_words": 529,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/02-the-shade-he-remembered.md",
+      "narrative_words": 533,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/03-the-cowherd-of-the-mind.md",
+      "narrative_words": 531,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/04-when-the-forest-made-a-sound.md",
+      "narrative_words": 530,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/05-the-lotuses-not-yet-open.md",
+      "narrative_words": 524,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/06-a-way-between-the-extremes.md",
+      "narrative_words": 529,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/07-what-the-hand-cannot-hold.md",
+      "narrative_words": 523,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/08-the-mirror-before-the-deed.md",
+      "narrative_words": 525,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/09-the-question-that-could-wait.md",
+      "narrative_words": 517,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/10-a-calmness-put-to-the-test.md",
+      "narrative_words": 512,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/11-raft.md",
+      "narrative_words": 534,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/12-gift.md",
+      "narrative_words": 527,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/13-seeds.md",
+      "narrative_words": 544,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/14-questions.md",
+      "narrative_words": 554,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/15-words.md",
+      "narrative_words": 556,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/16-stopped.md",
+      "narrative_words": 565,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/17-fire.md",
+      "narrative_words": 572,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/18-potters-shed.md",
+      "narrative_words": 543,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/19-soma.md",
+      "narrative_words": 564,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/20-king.md",
+      "narrative_words": 567,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/21-fields-of-generosity.md",
+      "narrative_words": 545,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/22-eight-measures-of-freedom.md",
+      "narrative_words": 547,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/23-nanda-comes-home-to-himself.md",
+      "narrative_words": 546,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/24-the-second-arrow.md",
+      "narrative_words": 530,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/25-victory-without-peace.md",
+      "narrative_words": 536,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/26-five-things-to-remember.md",
+      "narrative_words": 543,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/27-a-single-fortunate-day.md",
+      "narrative_words": 542,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/28-the-lute-string.md",
+      "narrative_words": 535,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/29-the-acrobats-balance.md",
+      "narrative_words": 530,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    },
+    {
+      "file": "manuscript/stories/30-the-last-journey.md",
+      "narrative_words": 544,
+      "required_sections_missing": [],
+      "source_url": true,
+      "illustration": true
+    }
+  ],
+  "errors": [],
+  "duplicate_paragraphs": [],
+  "total_narrative_words": 16177
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-23",
+  "reviewer": "AI drafting agent; not a human review",
+  "checks": [
+    {
+      "file": "21-fields-of-generosity.md",
+      "narrative_whitespace_word_count": 545,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    },
+    {
+      "file": "22-eight-measures-of-freedom.md",
+      "narrative_whitespace_word_count": 547,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    },
+    {
+      "file": "23-nanda-comes-home-to-himself.md",
+      "narrative_whitespace_word_count": 546,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    },
+    {
+      "file": "24-the-second-arrow.md",
+      "narrative_whitespace_word_count": 530,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    },
+    {
+      "file": "25-victory-without-peace.md",
+      "narrative_whitespace_word_count": 536,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    },
+    {
+      "file": "26-five-things-to-remember.md",
+      "narrative_whitespace_word_count": 543,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    },
+    {
+      "file": "27-a-single-fortunate-day.md",
+      "narrative_whitespace_word_count": 542,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    },
+    {
+      "file": "28-the-lute-string.md",
+      "narrative_whitespace_word_count": 535,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    },
+    {
+      "file": "29-the-acrobats-balance.md",
+      "narrative_whitespace_word_count": 530,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    },
+    {
+      "file": "30-the-last-journey.md",
+      "narrative_whitespace_word_count": 544,
+      "within_500_750": true,
+      "sections_present": true,
+      "illustration_link": true
+    }
+  ]
+}

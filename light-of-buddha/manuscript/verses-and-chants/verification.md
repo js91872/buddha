@@ -1,0 +1,9 @@
+# Verse Verification Record
+
+Checked 2026-10-23 using the web research tool. SuttaCentral’s normal Pali pages returned a JavaScript/browser fallback, so those pages were not treated as text verification. Ancient Buddhist Texts, Dhammapada: A New Edition by Ānandajoti Bhikkhu, original-language chapter pages 01,02,03,04,06,08,12,14,15,20 were opened; precise selected verses were read in the returned source text. Editorial apparatus and modern translations were not copied. The English renderings here are newly composed and require independent Pali scholarly review. They are not claimed to have received human review. The Pali is ancient; the checked modern edition’s notes and organisation are separate material. Only the selected ancient verses are reproduced.
+
+Khp1 identity and nine-line structure were checked at Dhammatalks.org; the first-cycle Pali was checked at Sutta Friends. This is explicitly an excerpt. No later mantra is attributed to Gautama Buddha. All 13 selections belong to the Pali canonical/Theravada textual setting; this focused selection does not represent all Buddhist liturgical traditions.
+
+Normalisation: nasal ṃ is used instead of ṁ; metrical division marks and variant notes were omitted; compound divisions and punctuation were regularised. Dhp183 retains buddhāna, matching the metrical contracted form indicated by the checked edition, rather than silently representing a prose-standard form as its exact reading. Dhp277 retains nibbindatī from the checked edition; other editions read nibbindati. Dhp103 uses the checked main reading ekañca jeyya attānaṃ.
+
+The Sutta Friends page displays saranaṁ without the retroflex dot; this edition regularises the standard Pali saraṇaṃ. Readers should compare Khp1 in a critical Pali edition at final scholarly review. The Dhammatalks English page verifies the structure and attribution, not the spelling of the Pali.

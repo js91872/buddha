@@ -1,0 +1,20 @@
+{
+  "stories": 30,
+  "verses": 13,
+  "front_matter_files": 5,
+  "back_matter_files": 7,
+  "cover_present": true,
+  "epubcheck": "not run by build.py; see dedicated log",
+  "kindle_previewer": "unavailable in this environment",
+  "epub_xml_errors": [],
+  "epub_images": 30,
+  "epub_missing_alt": [],
+  "epub_has_navigation": true,
+  "epub_mimetype": "application/epub+zip",
+  "pdf_pages": 133,
+  "pdf_page_size_points": [
+    432.0,
+    648.0
+  ],
+  "pdf_empty_pages": []
+}

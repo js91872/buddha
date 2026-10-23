@@ -1,0 +1,3 @@
+$ pandoc manuscript/complete-manuscript.md --from=markdown-implicit_figures --standalone --toc --toc-depth=1 --metadata=lang:en --resource-path=.:manuscript --to=docx -o /workspace/light-of-buddha/release/the-light-of-buddha-volume-1.docx
+
+Exit: 0

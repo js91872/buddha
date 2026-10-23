@@ -1,0 +1,3 @@
+$ pandoc manuscript/complete-manuscript.md --from=markdown-implicit_figures --standalone --toc --toc-depth=1 --metadata=lang:en --resource-path=.:manuscript --metadata=title:THE LIGHT OF BUDDHA --metadata=subtitle:30 Timeless Stories of Wisdom, Compassion & Inner Peace --to=epub3 --split-level=1 --epub-title-page=false --epub-metadata=publishing/metadata/epub-metadata.xml --css=publishing/kindle/style.css --epub-cover-image=/workspace/light-of-buddha/release/kindle-cover.jpg -o /workspace/light-of-buddha/release/the-light-of-buddha-volume-1.epub
+
+Exit: 0

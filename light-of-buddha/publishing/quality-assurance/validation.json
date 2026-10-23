@@ -1,0 +1,351 @@
+{
+  "story_count": 30,
+  "story_narrative_word_counts": {
+    "01-the-search-no-teacher-could-finish.md": 529,
+    "02-the-shade-he-remembered.md": 533,
+    "03-the-cowherd-of-the-mind.md": 531,
+    "04-when-the-forest-made-a-sound.md": 530,
+    "05-the-lotuses-not-yet-open.md": 524,
+    "06-a-way-between-the-extremes.md": 529,
+    "07-what-the-hand-cannot-hold.md": 523,
+    "08-the-mirror-before-the-deed.md": 525,
+    "09-the-question-that-could-wait.md": 517,
+    "10-a-calmness-put-to-the-test.md": 512,
+    "11-raft.md": 534,
+    "12-gift.md": 527,
+    "13-seeds.md": 544,
+    "14-questions.md": 554,
+    "15-words.md": 556,
+    "16-stopped.md": 565,
+    "17-fire.md": 572,
+    "18-potters-shed.md": 543,
+    "19-soma.md": 564,
+    "20-king.md": 567,
+    "21-fields-of-generosity.md": 545,
+    "22-eight-measures-of-freedom.md": 547,
+    "23-nanda-comes-home-to-himself.md": 546,
+    "24-the-second-arrow.md": 530,
+    "25-victory-without-peace.md": 536,
+    "26-five-things-to-remember.md": 543,
+    "27-a-single-fortunate-day.md": 542,
+    "28-the-lute-string.md": 535,
+    "29-the-acrobats-balance.md": 530,
+    "30-the-last-journey.md": 544
+  },
+  "story_count_pass": true,
+  "story_images": {
+    "1": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "2": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "3": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "4": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "5": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "6": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "7": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "8": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "9": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "10": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "11": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "12": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "13": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "14": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "15": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "16": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "17": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "18": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "19": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "20": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "21": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "22": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "23": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "24": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "25": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "26": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "27": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "28": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "29": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    },
+    "30": {
+      "pixels": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "ppi_at_four_inches": 280.5
+    }
+  },
+  "cover": {
+    "size": [
+      1600,
+      2560
+    ],
+    "mode": "RGB",
+    "bytes": 2120684,
+    "pass": true
+  },
+  "cover_accessibility": {
+    "role": "img",
+    "labelledby": "cover-title cover-description",
+    "title": "THE LIGHT OF BUDDHA",
+    "description": "Serene Buddha meditating beneath a Bodhi tree. 30 Timeless Stories of Wisdom, Compassion & Inner Peace. VOLUME ONE. Compiled by Jaspal Singh.",
+    "pass": true
+  },
+  "ncx": {
+    "title": "THE LIGHT OF BUDDHA",
+    "uid_matches_opf": true,
+    "pass": true
+  },
+  "epub_metadata": {
+    "titles": [
+      "THE LIGHT OF BUDDHA",
+      "30 Timeless Stories of Wisdom, Compassion & Inner Peace"
+    ],
+    "contributors": [
+      "Jaspal Singh"
+    ],
+    "roles": [
+      "com"
+    ],
+    "raster_image_resources": 31,
+    "pass": true
+  },
+  "epub": {
+    "xml_errors": [],
+    "missing_local_links": [],
+    "missing_image_alt": [],
+    "missing_fragment_ids": [],
+    "text_characters": 166634,
+    "uncompressed_first_entry_mimetype": true,
+    "pass": true
+  },
+  "print": {
+    "pages": 133,
+    "page_sizes_points": [
+      [
+        432.0,
+        648.0
+      ]
+    ],
+    "rendered_font_names": [
+      "NotoSerif-Bold",
+      "NotoSerif-Italic",
+      "NotoSerif-Regular"
+    ],
+    "font_count": 4,
+    "font_file_extensions": [
+      "n/a",
+      "ttf"
+    ],
+    "text_near_page_edges": [],
+    "replacement_character_pages": [],
+    "six_by_nine_pass": true
+  },
+  "issues": [],
+  "limitations": [
+    "No Kindle Previewer/device check performed.",
+    "No claim of full human proofreading or Buddhist scholarship review.",
+    "Structural checks do not constitute EPUBCheck validation.",
+    "Native image resolution is measured; upsampling does not create original detail."
+  ]
+}
