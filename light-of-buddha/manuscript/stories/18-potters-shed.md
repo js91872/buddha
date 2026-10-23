@@ -14,7 +14,7 @@ Observing his companion's sincerity, the Buddha began a conversation. For whose 
 
 The Buddha did not first announce his identity. He offered a teaching, and Pukkusati agreed to listen. The night became a lesson in the elements, sensation, awareness and the work of letting go.
 
-The body could be considered through its qualities: solidity, fluidity, heat and motion, along with space and consciousness. What seemed so insistently one's own could be examined as changing conditions. A person did not need to deny experience in order to stop fastening the claim of ownership onto everything that appeared within it.
+Human experience could be examined through six elements: solidity, fluidity, heat, motion, space and consciousness. What seemed so insistently one's own could be examined as changing conditions. A person did not need to deny experience in order to stop fastening the claim of ownership onto everything that appeared within it.
 
 The teaching was exacting. It moved beyond comfort and beyond a promise of pleasant feeling. Even refined states required understanding. Peace could not be secured by clinging to a delicate experience and insisting that it remain. Wisdom, truthfulness, relinquishment and calm were to be cultivated together.
 

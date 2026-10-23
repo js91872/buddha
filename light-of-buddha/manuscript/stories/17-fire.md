@@ -10,7 +10,7 @@ The conversation began courteously. Assalayana stated the position he had been s
 
 The Buddha answered with questions rooted in things that could be observed. Brahmin women conceived, gave birth and nursed their children. The ordinary facts of human birth did not disappear beneath a claim of exceptional origin. Why should a declaration of superiority overrule the shared conditions of life?
 
-Assalayana held to the inherited position. The Buddha continued patiently. In some neighbouring societies, social arrangements differed; people could pass between the status of servant and master. An order that appeared fixed in one place was not understood everywhere in the same way.
+Assalayana held to the inherited position. The Buddha continued patiently. In some neighbouring societies, social arrangements differed; people could pass between the status of an enslaved person and a master. An order that appeared fixed in one place was not understood everywhere in the same way.
 
 Then came the question of conduct. If a person killed, stole, lied and acted cruelly, would birth protect that person from the consequences? Assalayana could not reasonably reserve moral accountability for the supposedly lower classes. Wrongdoing remained wrongdoing, whoever committed it.
 

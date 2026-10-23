@@ -1,0 +1,210 @@
+{
+  "narrative_whitespace_total": 16125,
+  "stories": [
+    {
+      "file": "manuscript/stories/01-the-search-no-teacher-could-finish.md",
+      "narrative_whitespace_words": 529,
+      "sha256": "9f9763cab30ae8089e475fd45899205356cec105c565538a0fb533a34f9623f9"
+    },
+    {
+      "file": "manuscript/stories/02-the-shade-he-remembered.md",
+      "narrative_whitespace_words": 533,
+      "sha256": "5bb1706d4e21cd6dfba1a93923c0bdf72a2c9d2a8b6e06941eb6599974690199"
+    },
+    {
+      "file": "manuscript/stories/03-the-cowherd-of-the-mind.md",
+      "narrative_whitespace_words": 531,
+      "sha256": "6a3eb445eaf50d2135e5482279ec62632a901b1a8b9f10e08ff7c2f41a20c6e7"
+    },
+    {
+      "file": "manuscript/stories/04-when-the-forest-made-a-sound.md",
+      "narrative_whitespace_words": 530,
+      "sha256": "35fc434a6b05052b1ad940a7aea35335bf7cef5cd07b412f6c37827250e56030"
+    },
+    {
+      "file": "manuscript/stories/05-the-lotuses-not-yet-open.md",
+      "narrative_whitespace_words": 524,
+      "sha256": "71f18c9c45afd5375531cdf787e743f4b0fec2ef2191b89be83a4a42425be022"
+    },
+    {
+      "file": "manuscript/stories/06-a-way-between-the-extremes.md",
+      "narrative_whitespace_words": 529,
+      "sha256": "959b90f9e4203c7d60a1756d45e5c7cba6e0ca59503aa42828056e4058238780"
+    },
+    {
+      "file": "manuscript/stories/07-what-the-hand-cannot-hold.md",
+      "narrative_whitespace_words": 523,
+      "sha256": "039735c54155a21db08fdb938e6ce0a7f445f3ee0943da52fd3bd5c2646e4649"
+    },
+    {
+      "file": "manuscript/stories/08-the-mirror-before-the-deed.md",
+      "narrative_whitespace_words": 525,
+      "sha256": "a3e9316495f928c2b77210a4c14a2f6a0a977f17e6c74caf3b028dd53fb28da1"
+    },
+    {
+      "file": "manuscript/stories/09-the-question-that-could-wait.md",
+      "narrative_whitespace_words": 517,
+      "sha256": "b847e0213efe8a19ed7caea2bf683cfbc12282f8da4ba526cacfc0537714b029"
+    },
+    {
+      "file": "manuscript/stories/10-a-calmness-put-to-the-test.md",
+      "narrative_whitespace_words": 512,
+      "sha256": "86db4af1bbd2b2a4d0a3de434c5bb25971e386aa30923e30180dd5c7dfcac1f9"
+    },
+    {
+      "file": "manuscript/stories/11-raft.md",
+      "narrative_whitespace_words": 530,
+      "sha256": "bb5e00b24c5cfc952561c84fb097fd0038c75f27a2628a2f3175109935b3d041"
+    },
+    {
+      "file": "manuscript/stories/12-gift.md",
+      "narrative_whitespace_words": 527,
+      "sha256": "9972658c97c8d82c6fd3050c3be1376f176d46dae4c5df060d47e4293aca2f90"
+    },
+    {
+      "file": "manuscript/stories/13-seeds.md",
+      "narrative_whitespace_words": 544,
+      "sha256": "446ddc8796b1d860b8b40d02f4e883833a507301ccfd3da33333618e8d9298ad"
+    },
+    {
+      "file": "manuscript/stories/14-questions.md",
+      "narrative_whitespace_words": 554,
+      "sha256": "d99e26620e84e0e247d4f8acbedd1499076f4fc50922e34b638add39d51fafd9"
+    },
+    {
+      "file": "manuscript/stories/15-words.md",
+      "narrative_whitespace_words": 556,
+      "sha256": "cb49d44a5a38db2c3630651934654334b6433459f58651b796a92a4b80584d1f"
+    },
+    {
+      "file": "manuscript/stories/16-stopped.md",
+      "narrative_whitespace_words": 564,
+      "sha256": "b6eb672496d1dbb9423983a631a188720a1b13d3c3595f346c947e5d82ad192a"
+    },
+    {
+      "file": "manuscript/stories/17-fire.md",
+      "narrative_whitespace_words": 575,
+      "sha256": "cd5c0fb58f76082dd938623334c501d6d93ff0f9337d8be118741af4172a9e50"
+    },
+    {
+      "file": "manuscript/stories/18-potters-shed.md",
+      "narrative_whitespace_words": 540,
+      "sha256": "95cb640e2bfe2fb620e7dd837a3f8c49f45e84a7201d7ef5ab54da438db142af"
+    },
+    {
+      "file": "manuscript/stories/19-soma.md",
+      "narrative_whitespace_words": 517,
+      "sha256": "37bba1f95929d6203d6fa4e7e50b8391ec2fab084f3d57b88c4627814848b32f"
+    },
+    {
+      "file": "manuscript/stories/20-king.md",
+      "narrative_whitespace_words": 567,
+      "sha256": "49ea695fc19a28c2b62d186dbe3fc72f8eb3e133d6d16209228e5a137f5d5353"
+    },
+    {
+      "file": "manuscript/stories/21-fields-of-generosity.md",
+      "narrative_whitespace_words": 545,
+      "sha256": "87c102421eec47e2c8b043b241fa2b9644662e40b58f16cdaf4ed822c2c1476a"
+    },
+    {
+      "file": "manuscript/stories/22-eight-measures-of-freedom.md",
+      "narrative_whitespace_words": 547,
+      "sha256": "e0c0d2c327f017fe2164ae444af7341899f893a1694e905c9c744148ee16394d"
+    },
+    {
+      "file": "manuscript/stories/23-nanda-comes-home-to-himself.md",
+      "narrative_whitespace_words": 546,
+      "sha256": "c70938f84f120266f68fb7a0691dcb9fe1558fbac197b2b3cc3012f17f3f8573"
+    },
+    {
+      "file": "manuscript/stories/24-the-second-arrow.md",
+      "narrative_whitespace_words": 530,
+      "sha256": "94928955c7cfc35fe2b824185272cfb94a9b3f1a1069f50cc19dbf20ae43d08b"
+    },
+    {
+      "file": "manuscript/stories/25-victory-without-peace.md",
+      "narrative_whitespace_words": 536,
+      "sha256": "2c2e317ddd57234c2c00b39dde8c1b688e35ab758bc55539eb67e4acea87927b"
+    },
+    {
+      "file": "manuscript/stories/26-five-things-to-remember.md",
+      "narrative_whitespace_words": 543,
+      "sha256": "580d218f75c17da1c7cc4b24032e52e8566dd5c1f371a1618a652735195d9890"
+    },
+    {
+      "file": "manuscript/stories/27-a-single-fortunate-day.md",
+      "narrative_whitespace_words": 542,
+      "sha256": "77eefc3c32da8f983dbc5b8453bdc18467dc934ab17fa378a68032786bc3b8fa"
+    },
+    {
+      "file": "manuscript/stories/28-the-lute-string.md",
+      "narrative_whitespace_words": 535,
+      "sha256": "f741fe45c4f5e7c7037ec1bce952cded988dc6a174b20b8a9bdbf095abb2f355"
+    },
+    {
+      "file": "manuscript/stories/29-the-acrobats-balance.md",
+      "narrative_whitespace_words": 530,
+      "sha256": "051eab5409427b72b937155e362d7f405df9fd2e22c9527ef6428bc384e917ca"
+    },
+    {
+      "file": "manuscript/stories/30-the-last-journey.md",
+      "narrative_whitespace_words": 544,
+      "sha256": "206d040b6b376f6069950c46effd75f396c9fb3c5d1a540d35f5c7f581746612"
+    }
+  ],
+  "shared_10_word_sequences": [],
+  "verse_files": [
+    {
+      "file": "manuscript/verses-and-chants/01-interlude.md",
+      "sha256": "94e5f9e8a84ebd4fbb69e7aadc3faf2fea438670229ca5498e2d5baa2939255b"
+    },
+    {
+      "file": "manuscript/verses-and-chants/02-interlude.md",
+      "sha256": "242fb75872577cd83eeec1e97899651ae6f5a3486a0be105507be7b83472cc22"
+    },
+    {
+      "file": "manuscript/verses-and-chants/03-interlude.md",
+      "sha256": "4aeef79c94e2e70f3682bcc2bbe9d2d8c04cd3f9962b89a6ce50b5538fc9e911"
+    },
+    {
+      "file": "manuscript/verses-and-chants/04-interlude.md",
+      "sha256": "bd17a2cd9939c3ce833005d8e643388e18e835c44f59c4064977c79bcbba08f5"
+    },
+    {
+      "file": "manuscript/verses-and-chants/05-interlude.md",
+      "sha256": "5bae547f1234b1656cbc3fc16d8e1a17c3da5f4e87ffdf8c1fb3e98c38271533"
+    },
+    {
+      "file": "manuscript/verses-and-chants/06-interlude.md",
+      "sha256": "cb1e6a4b1907a79f3e19e775ea70c1714932af67084c9b98cc973d98ee27b7b2"
+    },
+    {
+      "file": "manuscript/verses-and-chants/07-interlude.md",
+      "sha256": "835e0d23ddceb22fc98a7b675b6a9372274b4305e4e0205a70bdff90cc26ff82"
+    },
+    {
+      "file": "manuscript/verses-and-chants/08-interlude.md",
+      "sha256": "f711e30b579d7a5cd13d1ae34bcf269af3f3dd4ef8b826c2aac52d975970d84d"
+    },
+    {
+      "file": "manuscript/verses-and-chants/09-interlude.md",
+      "sha256": "3c7d63221f766ee9f4d35c6bbeceb74e12992754ef18eed524e701fc32802fe8"
+    },
+    {
+      "file": "manuscript/verses-and-chants/10-interlude.md",
+      "sha256": "2b9da8fb8e12a47931676bc3f9f90c1bc5420be3189e30587f7fcf29b56db31a"
+    },
+    {
+      "file": "manuscript/verses-and-chants/11-interlude.md",
+      "sha256": "4af80d36f92869a3959ea38cfc37a92914d4716c7e44a1b2cfa0f1c70e07c1f0"
+    },
+    {
+      "file": "manuscript/verses-and-chants/12-interlude.md",
+      "sha256": "922aa8c54068e615c132e1305e26a3a221d399706c493d0fd91d9dfc114528a9"
+    },
+    {
+      "file": "manuscript/verses-and-chants/13-interlude.md",
+      "sha256": "af257f6639f3c9e01d53de34ace3b0dd659b4bd7f3f3e02a617e95ab993b7cfc"
+    }
+  ]
+}

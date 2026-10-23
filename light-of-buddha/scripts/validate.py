@@ -4,7 +4,7 @@ from pathlib import Path
 from zipfile import ZipFile
 from lxml import etree
 from urllib.parse import unquote,urlsplit
-import posixpath,json,re,shutil
+import posixpath,json,re,shutil,sys,hashlib
 from PIL import Image,ImageDraw
 import fitz
 R=Path(__file__).resolve().parents[1]; Q=R/'publishing/quality-assurance'
@@ -22,13 +22,13 @@ checks['story_images']={}
 for n in range(1,31):
  p=R/f'artwork/story-illustrations/{n:02}.jpg'
  if not p.exists(): issues.append('Missing illustration '+str(n));continue
- with Image.open(p) as im: checks['story_images'][str(n)]={'pixels':im.size,'mode':im.mode,'ppi_at_four_inches':round(im.width/4,1)}
+ with Image.open(p) as im: checks['story_images'][str(n)]={'pixels':im.size,'mode':im.mode,'display_width_inches':3.74,'effective_print_ppi':round(im.width/3.74,1)}
 p=R/'release/kindle-cover.jpg'
 if p.exists():
  with Image.open(p) as im:checks['cover']={'size':im.size,'mode':im.mode,'bytes':p.stat().st_size,'pass':im.size==(1600,2560) and im.mode=='RGB' and p.stat().st_size<50_000_000}
 else:issues.append('Missing Kindle marketing cover')
 with ZipFile(R/'release/the-light-of-buddha-volume-1.epub') as z:
- names=z.namelist(); links=[]; parse=[]; alt=[]; textchars=0; fragments=[]
+ names=z.namelist(); links=[]; parse=[]; alt=[]; textchars=0; fragments=[]; all_epub_text=[]
  ids={}
  for name in names:
   if name.endswith(('.xhtml','.svg')):
@@ -38,7 +38,8 @@ with ZipFile(R/'release/the-light-of-buddha-volume-1.epub') as z:
   if not name.endswith(('.xhtml','.opf','.ncx','.xml')):continue
   try: tree=etree.fromstring(z.read(name))
   except etree.XMLSyntaxError as e:parse.append(str(e));continue
-  if name.endswith('.xhtml'):textchars+=len(''.join(tree.itertext()))
+  if name.endswith('.xhtml'):
+   textchars+=len(''.join(tree.itertext()));all_epub_text.append(''.join(tree.itertext()))
   for e in tree.iter():
    if e.tag.endswith('}img') and not e.get('alt'):alt.append(name)
    for attr in ('src','href','{http://www.w3.org/1999/xlink}href'):
@@ -63,6 +64,7 @@ with ZipFile(R/'release/the-light-of-buddha-volume-1.epub') as z:
  checks['cover_accessibility']={'role':svg.get('role'),'labelledby':svg.get('aria-labelledby'),'title':svg.xpath('string(*[local-name()="title"])'),'description':svg.xpath('string(*[local-name()="desc"])'),'pass':svg.get('role')=='img' and bool(svg.xpath('string(*[local-name()="title"])')) and bool(svg.xpath('string(*[local-name()="desc"])'))}
  checks['ncx']={'title':ncx_title,'uid_matches_opf':ncx_uid==opf_uid,'pass':ncx_title=='THE LIGHT OF BUDDHA' and ncx_uid==opf_uid}
  checks['epub_metadata']={'titles':titles,'contributors':contributors,'roles':roles,'raster_image_resources':image_count,'pass':'THE LIGHT OF BUDDHA' in titles and 'Jaspal Singh' in contributors and 'com' in roles and image_count==31}
+ checks['epub_credit']={'approved_credit_present':any('Compiled and Retold by Jaspal Singh' in t for t in all_epub_text),'old_credit_present':any('Compiled by Jaspal Singh' in t for t in all_epub_text)}
  checks['epub']={'xml_errors':parse,'missing_local_links':links,'missing_image_alt':alt,'missing_fragment_ids':fragments,'text_characters':textchars,'uncompressed_first_entry_mimetype':z.infolist()[0].filename=='mimetype' and z.infolist()[0].compress_type==0,'pass':not(parse or links or alt or fragments)}
 with fitz.open(R/'release/the-light-of-buddha-volume-1-print.pdf') as d:
  fonts={}; oob=[]; sizes=set(); badglyph=[]; images=[]; rendered_fonts=set()
@@ -85,7 +87,38 @@ with fitz.open(R/'release/the-light-of-buddha-volume-1-print.pdf') as d:
    thumb.thumbnail((145,220));x=((i-first)%5)*160+7;y=((i-first)//5)*290+18
    sheet.paste(thumb,(x,y));draw.text((x,y+225),str(i+1),fill='black')
   sheet.save(Q/f'print-contact-{first+1:03}.jpg',quality=90)
- checks['print']={'pages':len(d),'page_sizes_points':sorted(sizes),'rendered_font_names':sorted(rendered_fonts),'font_count':len(fonts),'font_file_extensions':sorted(set(f[1] for f in fonts.values())),'text_near_page_edges':sorted(set(oob)),'replacement_character_pages':badglyph,'six_by_nine_pass':sizes=={(432.0,648.0)}}
+ checks['print']={'pages':len(d),'page_sizes_points':sorted(sizes),'rendered_font_names':sorted(rendered_fonts),'font_count':len(fonts),'font_file_extensions':sorted(set(f[1] for f in fonts.values())),'text_near_page_edges':sorted(set(oob)),'replacement_character_pages':badglyph,'six_by_nine_pass':sizes=={(432.0,648.0)},'approved_credit_present':any('Compiled and Retold by Jaspal Singh' in p.get_text() for p in d)}
 checks['issues']=issues
 checks['limitations']=['No Kindle Previewer/device check performed.','No claim of full human proofreading or Buddhist scholarship review.','Structural checks do not constitute EPUBCheck validation.','Native image resolution is measured; upsampling does not create original detail.']
-Q.mkdir(exist_ok=True,parents=True);(Q/'validation.json').write_text(json.dumps(checks,indent=2));print(json.dumps(checks,indent=2))
+Q.mkdir(exist_ok=True,parents=True)
+
+# Validate editable Word content and exit nonzero when objective production gates fail.
+from docx import Document
+with ZipFile(R/'release/the-light-of-buddha-volume-1.docx') as z:
+ docx_zip_error=z.testzip()
+ docx_xml_errors=[]
+ for name in z.namelist():
+  if name.endswith('.xml'):
+   try:etree.fromstring(z.read(name))
+   except etree.XMLSyntaxError:docx_xml_errors.append(name)
+ media=[n for n in z.namelist() if n.startswith('word/media/')]
+wd=Document(R/'release/the-light-of-buddha-volume-1.docx')
+word_text='\n'.join(p.text for p in wd.paragraphs)
+checks['docx']={'zip_error':docx_zip_error,'xml_errors':docx_xml_errors,'embedded_images':len(media),'approved_credit_present':'Compiled and Retold by Jaspal Singh' in word_text,'old_credit_present':'Compiled by Jaspal Singh' in word_text,'section_sizes_inches':[[round(sec.page_width/914400,2),round(sec.page_height/914400,2)] for sec in wd.sections]}
+checks['docx']['pass']=not docx_zip_error and not docx_xml_errors and len(media)==30 and checks['docx']['approved_credit_present'] and not checks['docx']['old_credit_present'] and checks['docx']['section_sizes_inches']==[[6.0,9.0]]
+formal=Q/'epubcheck-result.json'
+checks['epubcheck']={'available_result':formal.exists(),'pass':False}
+if formal.exists():
+ result=json.loads(formal.read_text());actual=hashlib.sha256((R/'release/the-light-of-buddha-volume-1.epub').read_bytes()).hexdigest()
+ checks['epubcheck']=dict(result,available_result=True,hash_matches_current_epub=result.get('epub_sha256')==actual)
+ checks['epubcheck']['pass']=result.get('exit_code')==0 and result.get('epub_sha256')==actual
+full=(R/'manuscript/complete-manuscript.md').read_text()
+full=re.sub(r'!\[.*?\]\([^)]+\)','',full)
+full=re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',full)
+checks['complete_manuscript_word_count']=len(re.findall(r"\b[\w]+(?:[’'-][\w]+)*\b",full))
+checks['word_count_method']='Unicode word tokens with optional internal apostrophe or hyphen; image alt and hyperlink URLs excluded; all reader-facing prose/headings/source notes included'
+checks['gates']={'narrative_lengths':all(500<=n<=750 for n in checks['story_narrative_word_counts'].values()),'thirty_stories':checks['story_count_pass'],'thirteen_interludes':len(list((R/'manuscript/verses-and-chants').glob('[0-9][0-9]-interlude.md')))==13,'thirty_images':len(checks['story_images'])==30,'cover':checks.get('cover',{}).get('pass',False),'epub_structure':checks['epub']['pass'] and checks['epub']['uncompressed_first_entry_mimetype'],'epub_metadata':checks['epub_metadata']['pass'],'epub_credit':checks['epub_credit']['approved_credit_present'] and not checks['epub_credit']['old_credit_present'],'ncx':checks['ncx']['pass'],'cover_accessibility':checks['cover_accessibility']['pass'],'pdf':checks['print']['six_by_nine_pass'] and checks['print']['approved_credit_present'] and not checks['print']['text_near_page_edges'] and not checks['print']['replacement_character_pages'],'docx':checks['docx']['pass']}
+if '--require-epubcheck' in sys.argv:checks['gates']['epubcheck']=checks['epubcheck']['pass']
+checks['all_requested_gates_pass']=all(checks['gates'].values()) and not issues
+(Q/'validation.json').write_text(json.dumps(checks,indent=2));print(json.dumps({'gates':checks['gates'],'all_requested_gates_pass':checks['all_requested_gates_pass']},indent=2))
+raise SystemExit(0 if checks['all_requested_gates_pass'] else 1)

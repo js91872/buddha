@@ -8,7 +8,7 @@ The Buddha set out five matters to remember often. They concerned things so fami
 
 A young person could know that old age existed while living as though it belonged permanently to somebody else. Someone in good health could see sickness everywhere and still feel inwardly exempt. A person surrounded by the business of a full day could acknowledge death in principle while assuming there would always be time later to mend what mattered.
 
-The first three recollections brought those distant possibilities closer. The body would age. It could become ill. Life would end. These were not punishments singled out for an unfortunate few. They belonged to the conditions of being alive.
+The first three recollections brought those distant possibilities closer. The body was subject to ageing and illness. Life would end. These were not punishments singled out for an unfortunate few. They belonged to the conditions of being alive.
 
 The fourth recollection concerned everything held dear. Whatever was loved would be subject to separation and change. Affection could not make people, places, or possessions permanent. Remembering this was meant to weaken the grasping that could turn love into harmful conduct, rather than to make love itself impossible.
 

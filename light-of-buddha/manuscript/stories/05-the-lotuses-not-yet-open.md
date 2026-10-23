@@ -20,7 +20,7 @@ The Buddha surveys living beings with compassion. They are not all alike. Their 
 
 The discourse offers the image of a lotus pond. Some flowers are still held beneath the water. Some have reached its surface. Others have risen clear. All have grown in the same element, but they do not occupy the same place within it.
 
-One could look across such a pond and notice only the water. One could mistake the unopened flowers for flowers that would never open. The image allows a more patient judgment: what is not visible in full may still be developing.
+One could look across such a pond and notice only the water. One could mistake the unopened flowers for flowers that would never open. The image allows a more patient judgement: what is not visible in full may still be developing.
 
 The Buddha accepts the invitation to teach. He makes the possibility of hearing available to those who are willing to listen. Brahma recognises that his request has been answered, pays his respects and disappears from the scene.
 

@@ -20,7 +20,7 @@ The distinction mattered. He could not truthfully claim a harmless past. He coul
 
 Through diligent, secluded practice, Angulimala attained liberation, the discourse tells us. Still, the people of Savatthi remembered him. On an alms round, a clod struck his body, then a stone, then a broken piece of pottery. He returned to the Buddha injured, his bowl broken and his robe torn. The Buddha urged him to endure, explaining his suffering in terms of the consequences of past actions.
 
-The robe had not restored those who had died. Nor had his change obliged the bereaved to forget. Every journey for food now took him unarmed among people who had reason to fear and hate him. He could no longer answer their anger with the violence that had once made him powerful. The discipline he had entered had to reach even this difficult meeting between his present life and the suffering he had caused.
+The robe had not restored those who had died. Nor had his change obliged the bereaved to forget. His alms rounds now took him unarmed among people who had reason to fear and hate him. He could no longer answer their anger with the violence that had once made him powerful. The discipline he had entered had to reach even this difficult meeting between his present life and the suffering he had caused.
 
 At the turning point on the forest road, stopping meant more than standing still. It meant ceasing to feed the intention that had carried him from one act of harm to another. The weapons could be thrown aside in a moment. The rest of his life had to become the meaning of that gesture.
 

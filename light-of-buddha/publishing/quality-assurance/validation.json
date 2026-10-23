@@ -11,15 +11,15 @@
     "08-the-mirror-before-the-deed.md": 525,
     "09-the-question-that-could-wait.md": 517,
     "10-a-calmness-put-to-the-test.md": 512,
-    "11-raft.md": 534,
+    "11-raft.md": 530,
     "12-gift.md": 527,
     "13-seeds.md": 544,
     "14-questions.md": 554,
     "15-words.md": 556,
-    "16-stopped.md": 565,
-    "17-fire.md": 572,
-    "18-potters-shed.md": 543,
-    "19-soma.md": 564,
+    "16-stopped.md": 564,
+    "17-fire.md": 575,
+    "18-potters-shed.md": 540,
+    "19-soma.md": 519,
     "20-king.md": 567,
     "21-fields-of-generosity.md": 545,
     "22-eight-measures-of-freedom.md": 547,
@@ -40,7 +40,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "2": {
       "pixels": [
@@ -48,7 +49,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "3": {
       "pixels": [
@@ -56,7 +58,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "4": {
       "pixels": [
@@ -64,7 +67,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "5": {
       "pixels": [
@@ -72,7 +76,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "6": {
       "pixels": [
@@ -80,7 +85,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "7": {
       "pixels": [
@@ -88,7 +94,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "8": {
       "pixels": [
@@ -96,7 +103,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "9": {
       "pixels": [
@@ -104,7 +112,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "10": {
       "pixels": [
@@ -112,7 +121,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "11": {
       "pixels": [
@@ -120,7 +130,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "12": {
       "pixels": [
@@ -128,7 +139,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "13": {
       "pixels": [
@@ -136,7 +148,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "14": {
       "pixels": [
@@ -144,7 +157,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "15": {
       "pixels": [
@@ -152,7 +166,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "16": {
       "pixels": [
@@ -160,7 +175,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "17": {
       "pixels": [
@@ -168,7 +184,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "18": {
       "pixels": [
@@ -176,7 +193,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "19": {
       "pixels": [
@@ -184,7 +202,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "20": {
       "pixels": [
@@ -192,7 +211,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "21": {
       "pixels": [
@@ -200,7 +220,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "22": {
       "pixels": [
@@ -208,7 +229,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "23": {
       "pixels": [
@@ -216,7 +238,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "24": {
       "pixels": [
@@ -224,7 +247,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "25": {
       "pixels": [
@@ -232,7 +256,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "26": {
       "pixels": [
@@ -240,7 +265,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "27": {
       "pixels": [
@@ -248,7 +274,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "28": {
       "pixels": [
@@ -256,7 +283,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "29": {
       "pixels": [
@@ -264,7 +292,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     },
     "30": {
       "pixels": [
@@ -272,7 +301,8 @@
         1402
       ],
       "mode": "RGB",
-      "ppi_at_four_inches": 280.5
+      "display_width_inches": 3.74,
+      "effective_print_ppi": 300.0
     }
   },
   "cover": {
@@ -281,14 +311,14 @@
       2560
     ],
     "mode": "RGB",
-    "bytes": 2120684,
+    "bytes": 2127324,
     "pass": true
   },
   "cover_accessibility": {
     "role": "img",
     "labelledby": "cover-title cover-description",
     "title": "THE LIGHT OF BUDDHA",
-    "description": "Serene Buddha meditating beneath a Bodhi tree. 30 Timeless Stories of Wisdom, Compassion & Inner Peace. VOLUME ONE. Compiled by Jaspal Singh.",
+    "description": "Serene Buddha meditating beneath a Bodhi tree. 30 Timeless Stories of Wisdom, Compassion & Inner Peace. VOLUME ONE. Compiled and Retold by Jaspal Singh.",
     "pass": true
   },
   "ncx": {
@@ -310,17 +340,21 @@
     "raster_image_resources": 31,
     "pass": true
   },
+  "epub_credit": {
+    "approved_credit_present": true,
+    "old_credit_present": false
+  },
   "epub": {
     "xml_errors": [],
     "missing_local_links": [],
     "missing_image_alt": [],
     "missing_fragment_ids": [],
-    "text_characters": 166634,
+    "text_characters": 165450,
     "uncompressed_first_entry_mimetype": true,
     "pass": true
   },
   "print": {
-    "pages": 133,
+    "pages": 129,
     "page_sizes_points": [
       [
         432.0,
@@ -339,7 +373,8 @@
     ],
     "text_near_page_edges": [],
     "replacement_character_pages": [],
-    "six_by_nine_pass": true
+    "six_by_nine_pass": true,
+    "approved_credit_present": true
   },
   "issues": [],
   "limitations": [
@@ -347,5 +382,60 @@
     "No claim of full human proofreading or Buddhist scholarship review.",
     "Structural checks do not constitute EPUBCheck validation.",
     "Native image resolution is measured; upsampling does not create original detail."
-  ]
+  ],
+  "docx": {
+    "zip_error": null,
+    "xml_errors": [],
+    "embedded_images": 30,
+    "approved_credit_present": true,
+    "old_credit_present": false,
+    "section_sizes_inches": [
+      [
+        6.0,
+        9.0
+      ]
+    ],
+    "pass": true
+  },
+  "epubcheck": {
+    "command": [
+      "java",
+      "-jar",
+      "/workspace/tools/epubcheck/epubcheck-5.4.0/epubcheck.jar",
+      "/workspace/light-of-buddha/release/the-light-of-buddha-volume-1.epub",
+      "--json",
+      "/workspace/light-of-buddha/publishing/quality-assurance/epubcheck-detailed.json"
+    ],
+    "exit_code": 0,
+    "version": "EPUBCheck v5.4.0",
+    "epub_sha256": "84d6fb15f5e2295af978ff5837a224bd8f3f846b5f127c3a77f9805b9a1969b0",
+    "jar_sha256": "2146665a124998dc6c908010ffe0d09dc4f4c8014f2c8fd6a1aa11f64c40ac93",
+    "pass": true,
+    "messages": {
+      "nFatal": 0,
+      "nError": 0,
+      "nWarning": 0,
+      "nUsage": 0
+    },
+    "available_result": true,
+    "hash_matches_current_epub": true
+  },
+  "complete_manuscript_word_count": 25276,
+  "word_count_method": "Unicode word tokens with optional internal apostrophe or hyphen; image alt and hyperlink URLs excluded; all reader-facing prose/headings/source notes included",
+  "gates": {
+    "narrative_lengths": true,
+    "thirty_stories": true,
+    "thirteen_interludes": true,
+    "thirty_images": true,
+    "cover": true,
+    "epub_structure": true,
+    "epub_metadata": true,
+    "epub_credit": true,
+    "ncx": true,
+    "cover_accessibility": true,
+    "pdf": true,
+    "docx": true,
+    "epubcheck": true
+  },
+  "all_requested_gates_pass": true
 }

@@ -73,7 +73,7 @@
     },
     {
       "file": "manuscript/stories/11-raft.md",
-      "narrative_words": 534,
+      "narrative_words": 530,
       "required_sections_missing": [],
       "source_url": true,
       "illustration": true
@@ -108,28 +108,28 @@
     },
     {
       "file": "manuscript/stories/16-stopped.md",
-      "narrative_words": 565,
+      "narrative_words": 564,
       "required_sections_missing": [],
       "source_url": true,
       "illustration": true
     },
     {
       "file": "manuscript/stories/17-fire.md",
-      "narrative_words": 572,
+      "narrative_words": 575,
       "required_sections_missing": [],
       "source_url": true,
       "illustration": true
     },
     {
       "file": "manuscript/stories/18-potters-shed.md",
-      "narrative_words": 543,
+      "narrative_words": 540,
       "required_sections_missing": [],
       "source_url": true,
       "illustration": true
     },
     {
       "file": "manuscript/stories/19-soma.md",
-      "narrative_words": 564,
+      "narrative_words": 519,
       "required_sections_missing": [],
       "source_url": true,
       "illustration": true
@@ -214,5 +214,5 @@
   ],
   "errors": [],
   "duplicate_paragraphs": [],
-  "total_narrative_words": 16177
+  "total_narrative_words": 16127
 }

@@ -26,7 +26,7 @@ As strength returned, he developed the collected states of meditation. The remem
 
 The discourse carries the account onwards through the night of awakening. It describes knowledge of former lives, knowledge of beings passing according to their actions and, finally, the ending of the taints that sustain bondage. These are the tradition's claims about liberation, not the rewards of starvation.
 
-At the turning point of the story stands no public triumph. There is a memory, an honest judgment and the acceptance of food. The decisive courage is almost quiet enough to miss: after going so far in one direction, he was willing to turn.
+At the turning point of the story stands no public triumph. There is a memory, an honest judgement and the acceptance of food. The decisive courage is almost quiet enough to miss: after going so far in one direction, he was willing to turn.
 
 ## Wisdom to Remember
 

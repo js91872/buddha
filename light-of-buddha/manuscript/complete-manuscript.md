@@ -11,25 +11,24 @@ The Light of Buddha — Volume 1
 
 VOLUME ONE
 
-Compiled by Jaspal Singh
+Compiled and Retold by Jaspal Singh
 
 
 # Publication Information
 
-THE LIGHT OF BUDDHA: 30 Timeless Stories of Wisdom, Compassion & Inner Peace
+THE LIGHT OF BUDDHA
+
+30 Timeless Stories of Wisdom, Compassion & Inner Peace
 
 The Light of Buddha — Volume 1
 
-Compiled by Jaspal Singh
+Compiled and Retold by Jaspal Singh
 
-English edition. Publication date, publisher imprint and any ISBN are to be assigned by the publisher before release. No publication or registration is represented by this review edition.
+English edition. This is a prepublication review edition; the publisher will finalise the imprint, publication date and applicable copyright notice before publication.
 
-The narratives, English renderings of verses, reflections and editorial apparatus in this edition were generated with artificial intelligence and subsequently revised within the same production workflow. The production records identify the image-generation process. No independent human scholarly, literary, legal or artistic review is claimed. The publisher must make the applicable AI-generated content disclosures when submitting to a publishing service.
+These stories are literary retellings of identified Buddhist texts, not transcripts of historical conversations. Descriptive staging, transitions and occasional interior perspectives are imaginative reconstruction. Teaching parables and extraordinary religious narratives are identified in the source notes.
 
-The ancient Buddhist texts underlying these retellings belong to longstanding religious traditions. Modern translations and scholarly editions remain subject to their own terms. This edition does not reproduce a modern translator’s extended prose. Its English verse renderings are newly composed for this collection. Claims to copyright in AI-generated material vary by jurisdiction; no blanket claim of exclusive human authorship or ownership is made here. The publisher should settle rights and the final copyright notice before publication.
-
-The stories are original literary retellings, not transcripts. Descriptive staging, transitions, emotional emphasis and occasional interior perspectives are imaginative reconstruction. Canonical quotations are confined to clearly identified verse interludes. Where a source contains a parable, vision, divine being or extraordinary event, its religious character is identified rather than offered as independently established history.
-
+The ancient texts and their modern translations have distinct rights histories. Modern translations remain subject to their respective terms. The English prose and short verse renderings prepared for this collection do not reproduce a modern translator’s extended text. References and acknowledgements appear in the source notes and bibliography.
 
 
 # Dedication
@@ -130,7 +129,7 @@ As strength returned, he developed the collected states of meditation. The remem
 
 The discourse carries the account onwards through the night of awakening. It describes knowledge of former lives, knowledge of beings passing according to their actions and, finally, the ending of the taints that sustain bondage. These are the tradition's claims about liberation, not the rewards of starvation.
 
-At the turning point of the story stands no public triumph. There is a memory, an honest judgment and the acceptance of food. The decisive courage is almost quiet enough to miss: after going so far in one direction, he was willing to turn.
+At the turning point of the story stands no public triumph. There is a memory, an honest judgement and the acceptance of food. The decisive courage is almost quiet enough to miss: after going so far in one direction, he was willing to turn.
 
 ## Wisdom to Remember
 
@@ -301,7 +300,7 @@ The Buddha surveys living beings with compassion. They are not all alike. Their 
 
 The discourse offers the image of a lotus pond. Some flowers are still held beneath the water. Some have reached its surface. Others have risen clear. All have grown in the same element, but they do not occupy the same place within it.
 
-One could look across such a pond and notice only the water. One could mistake the unopened flowers for flowers that would never open. The image allows a more patient judgment: what is not visible in full may still be developing.
+One could look across such a pond and notice only the water. One could mistake the unopened flowers for flowers that would never open. The image allows a more patient judgement: what is not visible in full may still be developing.
 
 The Buddha accepts the invitation to teach. He makes the possibility of hearing available to those who are willing to listen. Brahma recognises that his request has been answered, pays his respects and disappears from the scene.
 
@@ -530,7 +529,7 @@ An unanswered question need not prevent the useful action that is already availa
 
 ## A Reflection for Today
 
-Ask whether a question must be settled before you can take the next helpful step. Some uncertainty requires investigation; some can coexist with action. In a health emergency, seek urgent care rather than using this parable as a substitute for medical judgment.
+Ask whether a question must be settled before you can take the next helpful step. Some uncertainty requires investigation; some can coexist with action. In a health emergency, seek urgent care rather than using this parable as a substitute for medical judgement.
 
 ## Source Note
 
@@ -609,7 +608,7 @@ Source consulted: https://ancient-buddhist-texts.net/Buddhist-Texts/K2-Dhammapad
 
 The water lay between the traveller and safety. On his own bank there was danger; on the opposite bank, the possibility of continuing his journey. There was no bridge. No ferryman came towards him. He could stand and wish for a crossing, or begin making one.
 
-This was a traveller in a story the Buddha asked his listeners to imagine. He had no recorded name, no family history, no village to return to. What mattered was the difficulty before him, and what he would do with the means available.
+This was a traveller in a story the Buddha asked his listeners to imagine. The parable gives him no name or family history. What mattered was the difficulty before him, and what he would do with the means available.
 
 He gathered what the bank offered: grass, branches, leaves and smaller lengths of wood. None was a boat in itself. Bound together, however, they could bear a person's weight. He worked them into a raft, something serviceable rather than handsome. The task required judgement. Too little material would fail him; a collection left unbound would scatter as soon as he entered the water.
 
@@ -883,7 +882,7 @@ The distinction mattered. He could not truthfully claim a harmless past. He coul
 
 Through diligent, secluded practice, Angulimala attained liberation, the discourse tells us. Still, the people of Savatthi remembered him. On an alms round, a clod struck his body, then a stone, then a broken piece of pottery. He returned to the Buddha injured, his bowl broken and his robe torn. The Buddha urged him to endure, explaining his suffering in terms of the consequences of past actions.
 
-The robe had not restored those who had died. Nor had his change obliged the bereaved to forget. Every journey for food now took him unarmed among people who had reason to fear and hate him. He could no longer answer their anger with the violence that had once made him powerful. The discipline he had entered had to reach even this difficult meeting between his present life and the suffering he had caused.
+The robe had not restored those who had died. Nor had his change obliged the bereaved to forget. His alms rounds now took him unarmed among people who had reason to fear and hate him. He could no longer answer their anger with the violence that had once made him powerful. The discipline he had entered had to reach even this difficult meeting between his present life and the suffering he had caused.
 
 At the turning point on the forest road, stopping meant more than standing still. It meant ceasing to feed the intention that had carried him from one act of harm to another. The weapons could be thrown aside in a moment. The rest of his life had to become the meaning of that gesture.
 
@@ -935,7 +934,7 @@ The conversation began courteously. Assalayana stated the position he had been s
 
 The Buddha answered with questions rooted in things that could be observed. Brahmin women conceived, gave birth and nursed their children. The ordinary facts of human birth did not disappear beneath a claim of exceptional origin. Why should a declaration of superiority overrule the shared conditions of life?
 
-Assalayana held to the inherited position. The Buddha continued patiently. In some neighbouring societies, social arrangements differed; people could pass between the status of servant and master. An order that appeared fixed in one place was not understood everywhere in the same way.
+Assalayana held to the inherited position. The Buddha continued patiently. In some neighbouring societies, social arrangements differed; people could pass between the status of an enslaved person and a master. An order that appeared fixed in one place was not understood everywhere in the same way.
 
 Then came the question of conduct. If a person killed, stole, lied and acted cruelly, would birth protect that person from the consequences? Assalayana could not reasonably reserve moral accountability for the supposedly lower classes. Wrongdoing remained wrongdoing, whoever committed it.
 
@@ -982,7 +981,7 @@ Observing his companion's sincerity, the Buddha began a conversation. For whose 
 
 The Buddha did not first announce his identity. He offered a teaching, and Pukkusati agreed to listen. The night became a lesson in the elements, sensation, awareness and the work of letting go.
 
-The body could be considered through its qualities: solidity, fluidity, heat and motion, along with space and consciousness. What seemed so insistently one's own could be examined as changing conditions. A person did not need to deny experience in order to stop fastening the claim of ownership onto everything that appeared within it.
+Human experience could be examined through six elements: solidity, fluidity, heat, motion, space and consciousness. What seemed so insistently one's own could be examined as changing conditions. A person did not need to deny experience in order to stop fastening the claim of ownership onto everything that appeared within it.
 
 The teaching was exacting. It moved beyond comfort and beyond a promise of pleasant feeling. Even refined states required understanding. Peace could not be secured by clinging to a delicate experience and insisting that it remain. Wisdom, truthfulness, relinquishment and calm were to be cultivated together.
 
@@ -1053,8 +1052,6 @@ She went further. A mind fastening itself to the thought of being a woman, a man
 Mara found that she knew him. Disappointed, he disappeared. The encounter ended without a struggle for the last word. Soma had seen what was being attempted, and the attempt had failed. Her meditation had not required her to make an enemy of the whole world. It had required her to recognise this voice, in this moment, and not yield her understanding to it.
 
 The words had found no foothold. Their promise of certainty—that her birth had already settled her possibilities—could no longer pass for knowledge. She had answered from the qualities being developed in practice: composure, discernment and an understanding that did not need to be granted by the voice opposing her. What he had called impossible was the very work she was doing.
-
-Either way, Soma's response has a remarkable steadiness. She does not grant the hostile voice the right to set the terms of her effort. Nor does she postpone practice until the world has ceased to underestimate her. She recognises the obstruction and answers from understanding.
 
 The grove returns, in the reader's imagination, to its ordinary quiet. There is a woman beneath a tree, and there is work she has chosen to do. The judgement brought against her has not defined the reach of that work. In this small canonical scene, wisdom is allowed to speak in her voice, and the voice that tried to silence it has nothing left to add.
 
@@ -1396,7 +1393,7 @@ The Buddha set out five matters to remember often. They concerned things so fami
 
 A young person could know that old age existed while living as though it belonged permanently to somebody else. Someone in good health could see sickness everywhere and still feel inwardly exempt. A person surrounded by the business of a full day could acknowledge death in principle while assuming there would always be time later to mend what mattered.
 
-The first three recollections brought those distant possibilities closer. The body would age. It could become ill. Life would end. These were not punishments singled out for an unfortunate few. They belonged to the conditions of being alive.
+The first three recollections brought those distant possibilities closer. The body was subject to ageing and illness. Life would end. These were not punishments singled out for an unfortunate few. They belonged to the conditions of being alive.
 
 The fourth recollection concerned everything held dear. Whatever was loved would be subject to separation and change. Affection could not make people, places, or possessions permanent. Remembering this was meant to weaken the grasping that could turn love into harmful conduct, rather than to make love itself impossible.
 
@@ -1805,6 +1802,6 @@ Contextual sections of these works informed the distinction between canonical re
 
 # About the Compiler
 
-Compiled by Jaspal Singh
+Compiled and Retold by Jaspal Singh
 
-Jaspal Singh is credited as compiler of *The Light of Buddha — Volume 1*. No personal biography has been supplied for this edition. This note makes no claim about qualifications, lineage, profession or life history.
+Jaspal Singh is credited as compiler and reteller of *The Light of Buddha — Volume 1*.

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "java",
+    "-jar",
+    "/workspace/tools/epubcheck/epubcheck-5.4.0/epubcheck.jar",
+    "/workspace/light-of-buddha/release/the-light-of-buddha-volume-1.epub",
+    "--json",
+    "/workspace/light-of-buddha/publishing/quality-assurance/epubcheck-detailed.json"
+  ],
+  "exit_code": 0,
+  "version": "EPUBCheck v5.4.0",
+  "epub_sha256": "84d6fb15f5e2295af978ff5837a224bd8f3f846b5f127c3a77f9805b9a1969b0",
+  "jar_sha256": "2146665a124998dc6c908010ffe0d09dc4f4c8014f2c8fd6a1aa11f64c40ac93",
+  "pass": true,
+  "messages": {
+    "nFatal": 0,
+    "nError": 0,
+    "nWarning": 0,
+    "nUsage": 0
+  }
+}

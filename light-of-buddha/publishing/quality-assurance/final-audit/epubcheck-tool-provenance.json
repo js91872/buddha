@@ -1,0 +1,11 @@
+{
+  "release": "v5.4.0",
+  "official_release_url": "https://github.com/w3c/epubcheck/releases/tag/v5.4.0",
+  "download_url": "https://github.com/w3c/epubcheck/releases/download/v5.4.0/epubcheck-5.4.0.zip",
+  "bytes": 33093170,
+  "archive_sha256": "33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c",
+  "github_asset_digest": "sha256:33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c",
+  "github_digest_matches": true,
+  "jar_path": "/workspace/tools/epubcheck/epubcheck-5.4.0/epubcheck.jar",
+  "binaries_shipped_in_book_package": false
+}

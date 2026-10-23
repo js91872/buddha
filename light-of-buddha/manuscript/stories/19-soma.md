@@ -20,8 +20,6 @@ Mara found that she knew him. Disappointed, he disappeared. The encounter ended 
 
 The words had found no foothold. Their promise of certainty—that her birth had already settled her possibilities—could no longer pass for knowledge. She had answered from the qualities being developed in practice: composure, discernment and an understanding that did not need to be granted by the voice opposing her. What he had called impossible was the very work she was doing.
 
-Either way, Soma's response has a remarkable steadiness. She does not grant the hostile voice the right to set the terms of her effort. Nor does she postpone practice until the world has ceased to underestimate her. She recognises the obstruction and answers from understanding.
-
 The grove returns, in the reader's imagination, to its ordinary quiet. There is a woman beneath a tree, and there is work she has chosen to do. The judgement brought against her has not defined the reach of that work. In this small canonical scene, wisdom is allowed to speak in her voice, and the voice that tried to silence it has nothing left to add.
 
 ## Wisdom to Remember

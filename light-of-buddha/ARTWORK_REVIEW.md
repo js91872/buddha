@@ -29,10 +29,14 @@ Interpretive differences remain deliberately disclosed: 16 symbolises relinquish
 
 ## Resolution and cropping
 
-Native masters are preserved, generally 1122×1402 pixels. Story art is not cropped and is placed at up to 4 inches width, approximately 280 ppi. A 300 dpi JPEG tag does not add native detail. This is below a strict 300 ppi target and should be assessed on a printed colour proof. No higher native resolution is claimed. The cover master is 992×1586 pixels, resized to the requested 1600×2560 RGB JPEG; this meets the requested pixel dimensions but does not create genuine higher-resolution detail. Higher-resolution source art remains desirable, especially for any larger print reuse.
+Native masters are preserved, generally 1122×1402 pixels. Story art is not cropped. The final-audit print edition places it at 3.74 inches width, giving 300 ppi from the native 1122-pixel width. Earlier 4-inch placements provided approximately 280 ppi. A 300 dpi JPEG tag does not add native detail. A physical colour proof remains required. No higher native resolution is claimed. The cover master is 992×1586 pixels, resized to the requested 1600×2560 RGB JPEG; this meets the requested pixel dimensions but does not create genuine higher-resolution detail. Higher-resolution source art remains desirable, especially for any larger print reuse.
 
 The front cover was checked at full size and 200×320 thumbnail. All exact text is typeset with real fonts. The title remains readable at thumbnail size; small subtitle text needs a larger view. Source art, text file, reusable typography scripts and font-licence evidence are retained. No paperback full-wrap cover was prepared because final paper/bleed/production specifications are unconfirmed.
 
 ## Approval
 
 All story asset slots are populated. Final human review of iconography, faces, hands, cultural detail, thumbnail presentation and a physical printed proof remains pending. That limitation is not concealed by the mechanical file checks or the AI visual review.
+
+## Final audit update
+
+Every retained story illustration was reopened individually at native size during the final audit; the two reports under publishing/quality-assurance/final-audit/ record the actual findings. No painting was regenerated. Image 05 uses devotional tree/gesture conventions rather than literal reconstruction of the discourse’s banyan and kneeling posture; the source note remains authoritative. Pasenadi’s appearance varies between images 20 and 25. Such limits are recorded rather than concealed. The approved compiler credit was changed to “Compiled and Retold by Jaspal Singh” using separate typography; the original cover painting is unchanged. Final typography was inspected at full size and 200×320 thumbnail. The original pre-audit files remain in the frozen original archive and the separate before-final-audit snapshot.

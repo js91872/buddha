@@ -36,7 +36,7 @@ An unanswered question need not prevent the useful action that is already availa
 
 ## A Reflection for Today
 
-Ask whether a question must be settled before you can take the next helpful step. Some uncertainty requires investigation; some can coexist with action. In a health emergency, seek urgent care rather than using this parable as a substitute for medical judgment.
+Ask whether a question must be settled before you can take the next helpful step. Some uncertainty requires investigation; some can coexist with action. In a health emergency, seek urgent care rather than using this parable as a substitute for medical judgement.
 
 ## Source Note
 

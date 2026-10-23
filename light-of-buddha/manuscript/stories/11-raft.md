@@ -4,7 +4,7 @@
 
 The water lay between the traveller and safety. On his own bank there was danger; on the opposite bank, the possibility of continuing his journey. There was no bridge. No ferryman came towards him. He could stand and wish for a crossing, or begin making one.
 
-This was a traveller in a story the Buddha asked his listeners to imagine. He had no recorded name, no family history, no village to return to. What mattered was the difficulty before him, and what he would do with the means available.
+This was a traveller in a story the Buddha asked his listeners to imagine. The parable gives him no name or family history. What mattered was the difficulty before him, and what he would do with the means available.
 
 He gathered what the bank offered: grass, branches, leaves and smaller lengths of wood. None was a boat in itself. Bound together, however, they could bear a person's weight. He worked them into a raft, something serviceable rather than handsome. The task required judgement. Too little material would fail him; a collection left unbound would scatter as soon as he entered the water.
 

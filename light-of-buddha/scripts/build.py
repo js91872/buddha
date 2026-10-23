@@ -8,7 +8,7 @@ REL=ROOT/'release'; REL.mkdir(exist_ok=True)
 QA=ROOT/'publishing/quality-assurance'; QA.mkdir(parents=True,exist_ok=True)
 TITLE='THE LIGHT OF BUDDHA'
 SUB='30 Timeless Stories of Wisdom, Compassion & Inner Peace'
-CREDIT='Compiled by Jaspal Singh'
+CREDIT='Compiled and Retold by Jaspal Singh'
 PARTS={1:'PART I: The Prince Who Searched for Truth',8:'PART II: Lessons That Awaken the Heart',16:'PART III: Compassion That Changes Lives',24:'PART IV: Wisdom for Every Day'}
 
 def norm(s):
@@ -28,7 +28,12 @@ front=sorted((ROOT/'manuscript/front-matter').glob('*.md'))
 back=sorted((ROOT/'manuscript/back-matter').glob('*.md'))
 verses=sorted((ROOT/'manuscript/verses-and-chants').glob('[0-9][0-9]-interlude.md'))
 verse_map={int(e['after_story']):int(e['interlude']) for e in json.loads((ROOT/'manuscript/verses-and-chants/insertion-map.json').read_text())} if (ROOT/'manuscript/verses-and-chants/insertion-map.json').exists() else {}
-if '--final' in sys.argv and (len(front)<5 or len(back)<7 or len(verses)<12):raise SystemExit('Final build requires front/back matter and at least12 interludes')
+if '--final' in sys.argv:
+ if len(front)<5 or len(back)<7 or len(verses)!=13:raise SystemExit('Final build requires front/back matter and thirteen interludes')
+ for n in range(1,31):
+  if not (ROOT/f'artwork/story-illustrations/{n:02}.jpg').is_file():raise SystemExit(f'Missing story illustration {n:02}')
+ if not (REL/'kindle-cover.jpg').is_file():raise SystemExit('Missing approved Kindle marketing cover')
+ if CREDIT not in '\n'.join(p.read_text() for p in front):raise SystemExit('Approved contributor display credit missing from front matter')
 chunks=[p.read_text() for p in front]
 if not front:
  chunks=[f'# {TITLE}\n\n{SUB}\n\nVOLUME ONE\n\n{CREDIT}\n']
@@ -41,7 +46,7 @@ for p in stories:
   alt=(ROOT/f'artwork/alt-text/{n:02}.txt').read_text().strip()
   lines=text.splitlines(); lines.insert(1,f'\n![{alt}](artwork/story-illustrations/{n:02}.jpg)\n'); text='\n'.join(lines)
  chunks.append(text)
- # Verses are separately headed interludes, one after each even story.
+ # Insert the selected interlude according to its explicit story placement map.
  if n in verse_map: chunks.append(verses[verse_map[n]-1].read_text())
 chunks.extend(p.read_text() for p in back)
 combined='\n\n'.join(chunks)
@@ -49,7 +54,7 @@ combined='\n\n'.join(chunks)
 css='''body{font-family:serif;line-height:1.5} h1,h2,h3{line-height:1.2;text-align:left;page-break-after:avoid} h1{margin-top:1.5em} p{text-indent:0;margin:.7em 0} img{display:block;margin:1em auto;max-width:100%;max-height:90vh;height:auto} figure{text-align:center;margin:1.2em 0} figcaption{font-size:.8em} a{overflow-wrap:anywhere}'''
 (ROOT/'publishing/kindle/style.css').write_text(css)
 meta='''<?xml version="1.0" encoding="UTF-8"?>
-<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf"><dc:identifier>urn:uuid:6332597e-c11d-5d62-a639-d50443bea97b</dc:identifier><dc:title>THE LIGHT OF BUDDHA</dc:title><dc:language>en</dc:language><dc:contributor id="compiler">Jaspal Singh</dc:contributor><meta refines="#compiler" property="role" scheme="marc:relators">com</meta><dc:description>30 Timeless Stories of Wisdom, Compassion &amp; Inner Peace. Volume One. Compiled by Jaspal Singh.</dc:description></metadata>'''
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf"><dc:identifier>urn:uuid:6332597e-c11d-5d62-a639-d50443bea97b</dc:identifier><dc:title>THE LIGHT OF BUDDHA</dc:title><dc:language>en</dc:language><dc:contributor id="compiler">Jaspal Singh</dc:contributor><meta refines="#compiler" property="role" scheme="marc:relators">com</meta><dc:description>30 Timeless Stories of Wisdom, Compassion &amp; Inner Peace. Volume One. Compiled and Retold by Jaspal Singh.</dc:description></metadata>'''
 (ROOT/'publishing/metadata/epub-metadata.xml').write_text(meta)
 args=['pandoc','manuscript/complete-manuscript.md','--from=markdown-implicit_figures','--standalone','--toc','--toc-depth=1','--metadata=lang:en','--resource-path=.:manuscript']
 cover=ROOT/'release/kindle-cover.jpg'
@@ -119,8 +124,8 @@ for paragraph in wd.paragraphs:
   paragraph.alignment=WD_ALIGN_PARAGRAPH.CENTER
 for shape in wd.inline_shapes:
  ratio=shape.height/shape.width
- shape.width=Inches(4);shape.height=int(Inches(4)*ratio)
-wd.core_properties.title=TITLE;wd.core_properties.subject=SUB;wd.core_properties.author='Jaspal Singh (compiler)'
+ shape.width=Inches(3.74);shape.height=int(Inches(3.74)*ratio)
+wd.core_properties.title=TITLE;wd.core_properties.subject=SUB;wd.core_properties.author=CREDIT
 wd.save(REL/'the-light-of-buddha-volume-1.docx')
 
 
@@ -186,7 +191,7 @@ for chunk_index,chunk in enumerate(chunks):
    m=re.search(r'!\[.*?\]\(([^)]+)\)',block,re.S)
    if m and (ROOT/m[1]).exists():
     im=ROOT/m[1]; w,h=PILImage.open(im).size
-    width=min(4*72,4.65*72); height=width*h/w
+    width=3.74*72; height=width*h/w
     if height>5.4*72: width*=5.4*72/height; height=5.4*72
     obj=Image(str(im),width=width,height=height); obj.hAlign='CENTER'; flow.extend([obj,Spacer(1,12)])
    continue
@@ -217,9 +222,9 @@ for chunk_index,chunk in enumerate(chunks):
   flow.append(Paragraph(inline(block).replace('\n','<br/>'),styles[style]))
 def footer(c,d):
  c.setFont('Book',8); c.setFillColorRGB(.3,.35,.35); c.drawCentredString(3*72,.38*72,str(d.page))
- c.setTitle(TITLE); c.setAuthor('Jaspal Singh (compiler)'); c.setSubject(SUB)
+ c.setTitle(TITLE); c.setAuthor(CREDIT); c.setSubject(SUB)
 pdf=REL/'the-light-of-buddha-volume-1-print.pdf'
-doc=BookDoc(str(pdf),pagesize=(6*72,9*72),rightMargin=.65*72,leftMargin=.65*72,topMargin=.65*72,bottomMargin=.65*72,title=TITLE,author='Jaspal Singh (compiler)')
+doc=BookDoc(str(pdf),pagesize=(6*72,9*72),rightMargin=.65*72,leftMargin=.65*72,topMargin=.65*72,bottomMargin=.65*72,title=TITLE,author=CREDIT)
 doc.multiBuild(flow,onFirstPage=footer,onLaterPages=footer,canvasmaker=lambda *a,**k:canvas.Canvas(*a,**dict(k,initialFontName='Book',initialFontSize=10)))
 # Structural checks are complementary to EPUBCheck, not a replacement.
 report={'stories':len(stories),'verses':len(verses),'front_matter_files':len(front),'back_matter_files':len(back),'cover_present':cover.exists(),'epubcheck':'not run by build.py; see dedicated log','kindle_previewer':'unavailable in this environment'}

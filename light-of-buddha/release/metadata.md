@@ -1,47 +1,81 @@
-# Metadata for final publisher review
+# Publishing metadata — final publisher review
 
 - Title: THE LIGHT OF BUDDHA
 - Subtitle: 30 Timeless Stories of Wisdom, Compassion & Inner Peace
 - Series: The Light of Buddha
 - Series number: 1
-- Edition/volume display: VOLUME ONE
-- Language: English (international usage)
-- Exact display credit: Compiled by Jaspal Singh
-- Person's name in structured contributor fields: Jaspal Singh
-- Accurate role: Compiler. EPUB MARC relator: `com`.
-- Publisher/imprint, ISBN, territorial rights, price and publication date: not assigned; publisher decisions required.
-- Intended audience: general adults and older teenagers; spiritual readers and beginners in Buddhism.
-- Primary target markets: USA, UK, Canada, Australia and India.
+- Display volume: VOLUME ONE
+- Exact display credit: Compiled and Retold by Jaspal Singh
+- Contributor name: Jaspal Singh (first name Jaspal; last name Singh)
+- Language: English; international spelling and usage
+- Primary marketplace recommendation: Amazon.com; distribution also USA, UK, Canada, Australia and India where rights permit
+- Audience: general adults, beginning Buddhist readers and older teenagers; adult/general listing, not a children's book
+- Publisher/imprint, publication date, ISBN and territories: publisher to confirm; none invented
 
-Do not enter “Compiled by” as part of the person's name in KDP name fields. Do not replace the compiler credit with “Written by” or claim that Jaspal Singh personally authored the generated narratives. The official public KDP help pages reviewed do not enumerate every current contributor dropdown value. At final setup confirm whether Compiler is supported. If absent, select an accurate available contributor designation only after checking KDP support; do not silently assign Author. This live account/UI mapping is unresolved and does not affect the exact cover/title-page credit.
+## Contributor role and display credit
 
-The EPUB records the person as contributor with compiler role, rather than falsely asserting individual literary authorship. AI tools are production tools, not invented human contributors.
+The accurate creative designation is **compiler and reteller**. Preserve the exact approved display credit. EPUB compiler relator remains `com`; role names are not part of the person's name. KDP's [contributor guidance](https://kdp.amazon.com/en_US/help/topic/G2BWJN2BY98T5PV2) allows a primary contributor, and its [metadata guidance](https://kdp.amazon.com/en_US/help/topic/G201097560) expressly permits editors. For the editorial/compilation contribution, **Editor** is the recommended supported-role category if the live selector offers it; use **Compiler** instead if actually offered. The public documentation does not enumerate the full live dropdown, so its exact account mapping remains unconfirmed. Do not invent a KDP “Reteller” option, falsely label Jaspal as translator/illustrator, or infer that he personally drafted all prose. Record the selected live role before submission; ask KDP support if no accurate option is available. No role has been selected in an account.
 
-## Draft description
+## Book description — listing copy
 
-A search beneath the trees. A gift that need not be accepted. A raft that has served its purpose. Across thirty original retellings rooted in early Buddhist texts, this illustrated collection explores the courage to question, the discipline of compassion, and the possibility of meeting ordinary life with greater clarity.
+A seeker sits beneath a tree and remembers a moment of unforced stillness. A young disciple learns to examine his choices as carefully as a reflection in a mirror. An angry visitor discovers that an insult need not be returned.
 
-Organised into four thematic parts, Volume One brings together narrative scenes, teaching parables and reflective encounters. Each story includes practical reflections and a source note. Selected Pali verses and chants, a glossary and a pronunciation guide offer an accessible beginning for readers new to Buddhism.
+**The Light of Buddha** brings together thirty illustrated retellings drawn from the Pali Buddhist tradition. Through encounters with kings, farmers, students, monastics and people struggling with ordinary desires, these accounts explore what it means to live with greater honesty, kindness and understanding.
 
-Compiled by Jaspal Singh. These are literary retellings of canonical traditions, not claims of verbatim historical reporting.
+Arranged in four parts, Volume One follows the search for awakening and turns towards lessons for daily life. Each story includes a brief “Wisdom to Remember”, a practical reflection and a source note distinguishing the ancient teaching from its literary retelling. Selected Pali verses and chants, a glossary and a pronunciation guide invite readers to explore further.
 
-## AI disclosure for KDP
+For those beginning to discover Buddhism, and those returning to familiar teachings, this collection offers a thoughtful place to pause, reflect and begin again.
 
-Text: AI-generated, including retellings, editorial prose and original English renderings where generated. Images: AI-generated cover artwork and interior illustrations, with typography/design composited separately. Translations: disclose AI-generated original English renderings of Pali passages wherever the current KDP workflow asks about translations. Subsequent automated editing does not convert generated content to merely AI-assisted.
+Compiled and Retold by Jaspal Singh
 
-## Official references consulted 23 October 2026
+## Seven keyword phrases — proposed entry fields
 
-- [Authors & Contributors](https://kdp.amazon.com/en_US/help/topic/G2BWJN2BY98T5PV2)
-- [Metadata Guidelines](https://kdp.amazon.com/en_US/help/topic/G201097560)
-- [Content Guidelines, including AI content](https://kdp.amazon.com/en_US/help/topic/G200672390)
-- [Kindle cover specifications](https://kdp.amazon.com/en_US/help/topic/G200645690)
-- [Paperback submission guidelines](https://kdp.amazon.com/en_US/help/topic/G201857950)
+1. letting go
+2. mindful living
+3. ethical choices
+4. handling anger
+5. ancient India
+6. Pali parables
+7. spiritual beginners
 
-KDP metadata guidelines require accurate cover/metadata agreement. At final listing include all thirty story titles in the description or supported appropriate metadata, respecting field limits; do not force them into the main title or keyword fields. No listing has been submitted.
+These are relevance-based editorial suggestions, not search-volume findings or ranking promises. Enter without numbering/quotation marks; check the live field limit. Remove duplication if final categories repeat these terms. No competitor names, promotions or unsupported bestseller claims. [Official keyword guidance](https://kdp.amazon.com/en_US/help/topic/G201298500).
 
-Compiler relator verified against the [Library of Congress MARC code list](https://www.loc.gov/marc/relators/relacode.html) and [role definitions](https://www.loc.gov/marc/relators/relaterm.html): `com` is compiler; `ctb` is the broader contributor role.
+## Categories — recommendations, not submitted selections
+
+Verified [BISAC subjects](https://www.bisg.org/religion): primary **REL007000 — RELIGION / Buddhism / General**; secondary **REL007040 — RELIGION / Buddhism / Theravada**. Optional alternative **REL007020 — RELIGION / Buddhism / Rituals & Practice** if the publisher considers the practical/interlude emphasis sufficient. This is not a survey of Zen or Tibetan traditions and is not an archaeological history.
+
+For KDP, seek the closest live Buddhism general/introductory and Theravada placements, and optionally Buddhist practice if accurately offered. These are subject targets, not invented exact Amazon browse paths. Amazon categories differ from BISAC and depend on marketplace, format and audience. [KDP permits up to three category selections](https://kdp.amazon.com/en_US/help/topic/G200652170); the account selector has not been accessed and availability is unconfirmed. Choosing two accurate categories is preferable to filling three arbitrarily.
+
+## Pricing scenarios — publisher decision, not market-tested recommendations
+
+| Marketplace | Accessible scenario | Higher illustrated-edition scenario | Current 70% price band |
+|---|---:|---:|---:|
+|USA|US$4.99|US$6.99|US$2.99–12.99|
+|UK|£3.99|£4.99|£1.77–12.99|
+|Canada|C$6.99|C$8.99|C$2.99–12.99|
+|Australia|A$7.99|A$9.99|A$3.99–15.99|
+|India|₹199|₹299|₹99–599|
+
+Bands verified from [official list-price requirements](https://kdp.amazon.com/en_US/help/topic/G200634560), including the July 2026 expansion. These independently chosen local amounts are not exchange-rate conversions. No price is approved or entered. Paperback pricing awaits ink/paper, final count, printing cost and desired margin.
+
+[Official royalty terms](https://kdp.amazon.com/en_US/help/topic/G200634500) calculate eligible 70% royalties as 0.70 × (price minus applicable tax minus delivery cost); 35% has no delivery deduction. Listed delivery rates per MB: US$0.15, C$0.15, £0.10, A$0.15 and ₹7. Use Amazon's converted file size and pricing screen, not ZIP size. At a hypothetical US$4.99 and 5 MB with zero applicable tax/no price match, 70% yields about US$2.97 versus US$1.75 at 35%; 5 MB is an example, not the measured file size. A large illustrated file can change the preferred option.
+
+India requires KDP Select as well as qualifying price/other conditions for 70%; otherwise 35% applies. Select enrolment and digital exclusivity are not authorised by this document. Eligible ebooks must be priced at least 20% below any physical edition's Amazon list price; predominantly public-domain books have only the 35% option. This original-retelling edition must be assessed accurately, not assumed eligible merely because it has new art.
+
+[Australia/India tax guidance](https://kdp.amazon.com/en_US/help/topic/G202169970) states entered prices include GST (10%/18%), deducted before royalties. UK official pricing examples identify 0% ebook VAT; other customer taxes, price matching, delivery rounding and withholding can affect proceeds. Recheck the actual KDP quote at final setup.
+
+## Copyright and publication administration
+
+Ancient source material, original editorial arrangement and generated retellings/art must not be conflated in a blanket ownership claim. Use a final rights notice approved for the publisher's jurisdiction; do not claim exclusive copyright in ancient texts or imply that every component was personally written, translated or painted by the credited contributor. No personal biography, imprint or rights holder is invented. See COPYRIGHT_AUDIT.md and internal KDP_AI_DISCLOSURE.md.
+
+## Metadata policy handoff
+
+The title, subtitle, series and exact credit must agree with the final cover and title page. All thirty story names are retained below for the collection's metadata record. KDP's wording about collections calls for a collection/compilation/series term in title/cover and all story titles in metadata. The approved subtitle already describes thirty stories; whether that meets the literal term requirement has not been confirmed with Amazon. Preserve the approved identity and resolve that interpretation before submission, rather than silently renaming the book. If the story list is included in the listing description, verify the live description's character limit after combining it with the copy above.
+
+AI administration is internal: complete KDP disclosure for generated text, images and English verse renderings. No unnecessary AI statement is inserted into this consumer description. No submission or publishing approval is implied.
 
 ## Complete story contents
+
 
 01. The Search No Teacher Could Finish
 

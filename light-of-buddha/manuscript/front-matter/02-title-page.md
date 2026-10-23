@@ -6,4 +6,4 @@ The Light of Buddha — Volume 1
 
 VOLUME ONE
 
-Compiled by Jaspal Singh
+Compiled and Retold by Jaspal Singh
